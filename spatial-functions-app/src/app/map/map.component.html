@@ -1,0 +1,104 @@
+
+<div class="map-container">
+    <div class="row">
+        <div class="col-md">
+            <div class="card bg-dark my-3">
+                <div class="card-body">
+                    <h2 class="card-title text-left text-white py-3">Prikaz  na mapi</h2>
+                     <select  class="custom-select" [(ngModel)]="selectedDatabase"  (change)="onSelectedDBChanged()" >
+                      <option *ngFor="let d of databases" [value]="d">{{d}} </option>
+                     
+                   </select>
+<br><br>
+
+                    
+                   
+                    <input   #europeCitiesCheckBox type="checkbox" id="europeCitiesCheckBox"   [checked]="europeCitiesChecked" 
+              (change)="onChanged(europeCitiesCheckBox.checked)">
+              <label for="europeCities" class="text-left text-white"> &nbsp;&nbsp;&nbsp;gradovi u Evropi </label><br>
+
+              <label id="example-radio-group-label"> Odabrati veličinu kolekcije gradova za pretraživanje</label><br>
+              <mat-radio-group
+              aria-labelledby="example-radio-group-label"
+              class="example-radio-group"
+              [disabled] = "!europeCitiesChecked"
+              [(ngModel)]="numberOfDots">
+              <mat-radio-button class="example-radio-button" *ngFor="let numberDot of nDots" [value]="numberDot"  (change)="onChangedRadio($event)">
+                {{numberDot}}
+              </mat-radio-button>
+            </mat-radio-group>
+          <br><br>  <br>
+                         
+
+           
+              
+           
+              <input   #belgradeCitiesCheckBox type="checkbox" id="belgradeCitiesCheckBox"   [checked]="belgradeCitiesChecked" 
+              (change)="onChangedBelgrade(belgradeCitiesCheckBox.checked)">
+              <label for="belgradeCities" class="text-left text-white">&nbsp;&nbsp;&nbsp; gradovi udaljeni od Beograda    </label>
+              
+              
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select  class="custom-select" [(ngModel)]="selectedDistance"  (change)="onChangedRadioBelgrade($event)">
+                   <option *ngFor="let d of distances" [value]="d">{{d}} km</option>
+                  
+                </select>
+              
+<br>
+              <label id="example-radio-group-label"> Odabrati veličinu kolekcije gradova za pretraživanje</label><br>
+              <mat-radio-group
+              aria-labelledby="example-radio-group-label"
+              class="example-radio-group"
+              [disabled] = "!belgradeCitiesChecked"
+              [(ngModel)]="numberOfDotsBelgrade">
+              <mat-radio-button class="example-radio-button" *ngFor="let numberDot of nDots" [value]="numberDot"  (change)="onChangedRadioBelgrade($event)">
+                {{numberDot}}
+              </mat-radio-button>
+            </mat-radio-group>
+
+            <br><br>  <br>
+           
+
+              <input   #europeRussiaCitiesCheckBox type="checkbox" id="europeRussiaCitiesCheckBox"   [checked]="europeRussiaCitiesChecked" 
+              (change)="onChangedEuropeRussia(europeRussiaCitiesCheckBox.checked)">
+              <label for="europeRussiaCities" class="text-left text-white">&nbsp;&nbsp;&nbsp; gradovi u evropskom delu Rusije </label><br>
+
+              <label id="example-radio-group-label"> Odabrati veličinu kolekcije gradova za pretraživanje</label><br>
+              <mat-radio-group
+              aria-labelledby="example-radio-group-label"
+              class="example-radio-group"
+              [disabled] = "!europeRussiaCitiesChecked"
+              [(ngModel)]="numberOfDotsRussia">
+              <mat-radio-button class="example-radio-button" *ngFor="let numberDot of nDots" [value]="numberDot"  (change)="onChangedRadioRussia($event)">
+                {{numberDot}}
+              </mat-radio-button>
+            </mat-radio-group>
+            <br><br> 
+            <mat-divider></mat-divider>
+            <button type="button" class="btn btn-link" (click)="openDialog()">Ubacivanje novih podataka</button><br>
+            <input   #newCitiesCheckBox type="checkbox" id="newCitiesCheckBox"   [checked]="newCitiesChecked" [disabled] = "!newCities"
+            (change)="onChangedNewCities(newCitiesCheckBox.checked)">
+            <label for="newCities" class="text-left text-white"> &nbsp;&nbsp;&nbsp;Prikaz novih podataka </label><br>
+
+              
+                    </div>
+                    </div>
+        </div>
+        <div class="col-md">
+            <div class="map-frame">
+                <div id="map"></div>
+                
+       </div>
+        </div>
+        
+      </div>
+
+    <div class="col-md-5">
+     
+            </div>
+  
+
+  
+  
+  </div>
+  

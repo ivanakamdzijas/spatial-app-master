@@ -1,0 +1,68 @@
+
+<h1 mat-dialog-title>Ubacivanje informacija o novom gradu</h1>
+
+<mat-divider></mat-divider>
+<br>
+<div mat-dialog-content>
+
+  <select  class="custom-select" [(ngModel)]="selectedDatabase"   >
+    <option *ngFor="let d of databases" [value]="d">{{d}} </option>
+   
+ </select><br><br>
+
+
+  <label id="example-radio-group-label"> Odabrati veličinu kolekcije gradova za pretraživanje</label><br>
+  <mat-radio-group
+  aria-labelledby="example-radio-group-label"
+  class="example-radio-group"
+  
+  [(ngModel)]="numberOfDots">
+  <mat-radio-button class="example-radio-button" *ngFor="let numberDot of nDots" [value]="numberDot"  >
+    {{numberDot}}
+  </mat-radio-button>
+</mat-radio-group>
+
+<br><br>
+
+  <form [formGroup]="form" (ngSubmit)="submitForm()">
+    <div class="form-group">
+        
+     
+      
+        
+        <input class="form-control"
+               type="text"
+               formControlName="city"
+               placeholder="Naziv grada"><br>
+
+               <input class="form-control"
+               type="text"
+               formControlName="country"
+               placeholder="Naziv države"><br>
+               
+      
+        <input class="form-control"
+               type="number"
+               formControlName="lat"
+               placeholder="Unos latitude koordinate"><br>
+       <input class="form-control"
+               type="number"
+               formControlName="lon"
+               placeholder="Unos longitude koordinate"><br>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-success btn-md float-right"
+                type="submit" >
+            Sačuvaj
+        </button>
+    </div>
+</form>
+
+    </div>
+    <br>
+    <mat-divider></mat-divider>
+
+<div mat-dialog-actions>
+  <button type="button" class="btn btn-secondary" mat-dialog-close>Zatvori</button>
+</div>
+
