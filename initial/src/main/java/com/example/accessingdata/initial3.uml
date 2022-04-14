@@ -1,0 +1,2079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_qL-A8GNXEeyTaJrEooS2Fg" name="initial3">
+    <eAnnotations xmi:id="_qg-AkGNXEeyTaJrEooS2Fg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_qg-noGNXEeyTaJrEooS2Fg" source="codegen">
+        <details xmi:id="_qg-noWNXEeyTaJrEooS2Fg" key="codegenDirectory" value="/initial/src/main/java"/>
+        <details xmi:id="_t4jAYGNXEeyTaJrEooS2Fg" key="AssociatedSourceCode" value="/initial/src/main/java/com/example/accessingdata/controller/City5Controller.java;3855159447/1;/initial/src/main/java/com/example/accessingdata/mongodb/entities/City5Mongo.java;4267155392/1;/initial/src/main/java/com/example/accessingdata/mongodb/entities/ContinentMongo.java;2021248897/1;/initial/src/main/java/com/example/accessingdata/mongodb/entities/Property.java;2781064065/1;/initial/src/main/java/com/example/accessingdata/mongodb/repo/City5MongoRepo.java;3066060600/1;/initial/src/main/java/com/example/accessingdata/mongodb/repo/ContinentMongoRepo.java;2903979111/1;/initial/src/main/java/com/example/accessingdata/neo4j/entities/City5.java;2459745938/1;/initial/src/main/java/com/example/accessingdata/neo4j/repo/City5Repository.java;2886699244/1;/initial/src/main/java/com/example/accessingdata/postgis/entities/City5Postgis.java;2129348864/1;/initial/src/main/java/com/example/accessingdata/postgis/repo/City5PostgisRepo.java;3834686304/1;/initial/src/main/java/com/example/accessingdata/service/City5Service.java;1622407696/1;/initial/src/main/java/com/example/accessingdata/serviceimpl/City5ServiceImpl.java;1452297382/1;"/>
+      </contents>
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_CHFWQGNYEeyTaJrEooS2Fg" source="dangling-refs">
+        <contents xmi:type="uml:Operation" xmi:id="_sJNJsGNXEeyTaJrEooS2Fg" name="getId" method="_sKcf0GNXEeyTaJrEooS2Fg">
+          <ownedParameter xmi:id="_sJOX0GNXEeyTaJrEooS2Fg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </contents>
+        <contents xmi:type="uml:Operation" xmi:id="_sJNwwGNXEeyTaJrEooS2Fg" name="setId" method="_sKcf0mNXEeyTaJrEooS2Fg">
+          <ownedParameter xmi:id="_sJNwwWNXEeyTaJrEooS2Fg" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </contents>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_rwEQ8GNXEeyTaJrEooS2Fg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_rwEQ8WNXEeyTaJrEooS2Fg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_rwEQ8mNXEeyTaJrEooS2Fg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_rwE4AGNXEeyTaJrEooS2Fg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_rwE4AWNXEeyTaJrEooS2Fg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_rwE4AmNXEeyTaJrEooS2Fg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_rwE4A2NXEeyTaJrEooS2Fg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_rwE4BGNXEeyTaJrEooS2Fg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_rwFfEGNXEeyTaJrEooS2Fg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rq-VkGNXEeyTaJrEooS2Fg" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_rq-8oGNXEeyTaJrEooS2Fg" name="example">
+        <packagedElement xmi:type="uml:Package" xmi:id="_rq_jsGNXEeyTaJrEooS2Fg" name="accessingdata">
+          <packagedElement xmi:type="uml:Package" xmi:id="_rrNmIGNXEeyTaJrEooS2Fg" name="mongodb">
+            <packagedElement xmi:type="uml:Package" xmi:id="_rrONMGNXEeyTaJrEooS2Fg" name="entities">
+              <packagedElement xmi:type="uml:Class" xmi:id="_rwtKIGNXEeyTaJrEooS2Fg" name="City5Mongo">
+                <ownedAttribute xmi:id="_sIXcMGNXEeyTaJrEooS2Fg" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_sIafgGNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_sIbGkGNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_sIcUsWNXEeyTaJrEooS2Fg" name="geom" type="_r6OSgWNXEeyTaJrEooS2Fg" association="_sKxP8GNXEeyTaJrEooS2Fg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_rwz30GNXEeyTaJrEooS2Fg" name="ContinentMongo">
+                <ownedAttribute xmi:id="_sIdi0GNXEeyTaJrEooS2Fg" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_sIf_EGNXEeyTaJrEooS2Fg" name="geometry" type="_r662EGNXEeyTaJrEooS2Fg" association="_sKyeEWNXEeyTaJrEooS2Fg"/>
+                <ownedAttribute xmi:id="_sIgmIGNXEeyTaJrEooS2Fg" name="properties" type="_rw9BwGNXEeyTaJrEooS2Fg" association="_sKzsMGNXEeyTaJrEooS2Fg"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKWZMGNXEeyTaJrEooS2Fg" name="ContinentMongo" specification="_sFpfYGNXEeyTaJrEooS2Fg">
+                  <ownedParameter xmi:id="_sKWZMWNXEeyTaJrEooS2Fg" name="id">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_sKWZMmNXEeyTaJrEooS2Fg" name="geometry" type="_r662EGNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sKWZM2NXEeyTaJrEooS2Fg" name="properties" type="_rw9BwGNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sKWZNGNXEeyTaJrEooS2Fg" type="_rwz30GNXEeyTaJrEooS2Fg" direction="return"/>
+                  <language>java</language>
+                  <body>super();&#xD;
+		this.id = id;&#xD;
+		this.geometry = geometry;&#xD;
+		this.properties = properties;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKXAQGNXEeyTaJrEooS2Fg" name="ContinentMongo" specification="_rw27IGNXEeyTaJrEooS2Fg">
+                  <ownedParameter xmi:id="_sKXAQWNXEeyTaJrEooS2Fg" type="_rwz30GNXEeyTaJrEooS2Fg" direction="return"/>
+                  <language>java</language>
+                  <body>super();&#xD;
+		// TODO Auto-generated constructor stub&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_rw27IGNXEeyTaJrEooS2Fg" name="ContinentMongo" method="_sKXAQGNXEeyTaJrEooS2Fg">
+                  <eAnnotations xmi:id="_rw3iMGNXEeyTaJrEooS2Fg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_rw3iMWNXEeyTaJrEooS2Fg" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_rw3iMmNXEeyTaJrEooS2Fg" type="_rwz30GNXEeyTaJrEooS2Fg" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_sFpfYGNXEeyTaJrEooS2Fg" name="ContinentMongo" method="_sKWZMGNXEeyTaJrEooS2Fg">
+                  <eAnnotations xmi:id="_sFpfZGNXEeyTaJrEooS2Fg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_sFqGcGNXEeyTaJrEooS2Fg" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_sFpfYWNXEeyTaJrEooS2Fg" name="id">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_sFpfYmNXEeyTaJrEooS2Fg" name="geometry" type="_r662EGNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sFpfY2NXEeyTaJrEooS2Fg" name="properties" type="_rw9BwGNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sFqGcWNXEeyTaJrEooS2Fg" type="_rwz30GNXEeyTaJrEooS2Fg" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_rw9BwGNXEeyTaJrEooS2Fg" name="Property">
+                <ownedAttribute xmi:id="_sIh0QGNXEeyTaJrEooS2Fg" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_sIjpcGNXEeyTaJrEooS2Fg" name="CONTINENT">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_r5LJoGNXEeyTaJrEooS2Fg" name="City10Mongo"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_sKxP8GNXEeyTaJrEooS2Fg" name="" memberEnd="_sIcUsWNXEeyTaJrEooS2Fg _sKx3AGNXEeyTaJrEooS2Fg">
+                <ownedEnd xmi:id="_sKx3AGNXEeyTaJrEooS2Fg" name="" type="_rwtKIGNXEeyTaJrEooS2Fg" association="_sKxP8GNXEeyTaJrEooS2Fg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_sKyeEWNXEeyTaJrEooS2Fg" name="" memberEnd="_sIf_EGNXEeyTaJrEooS2Fg _sKzFIGNXEeyTaJrEooS2Fg">
+                <ownedEnd xmi:id="_sKzFIGNXEeyTaJrEooS2Fg" name="" type="_rwz30GNXEeyTaJrEooS2Fg" association="_sKyeEWNXEeyTaJrEooS2Fg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_sKzsMGNXEeyTaJrEooS2Fg" name="" memberEnd="_sIgmIGNXEeyTaJrEooS2Fg _sKzsMWNXEeyTaJrEooS2Fg">
+                <ownedEnd xmi:id="_sKzsMWNXEeyTaJrEooS2Fg" name="" type="_rwz30GNXEeyTaJrEooS2Fg" association="_sKzsMGNXEeyTaJrEooS2Fg"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_rtNKMGNXEeyTaJrEooS2Fg" name="repo">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_rxAFEGNXEeyTaJrEooS2Fg" name="City5MongoRepo">
+                <generalization xmi:id="_sFr7oGNXEeyTaJrEooS2Fg" general="_r8WZcGNXEeyTaJrEooS2Fg"/>
+                <ownedOperation xmi:id="_rxB6QGNXEeyTaJrEooS2Fg" name="findByCityAndCountry">
+                  <ownedParameter xmi:id="_rxB6QWNXEeyTaJrEooS2Fg" name="city">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_rxChUGNXEeyTaJrEooS2Fg" name="country">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_r8zFYGNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_sF1FkGNXEeyTaJrEooS2Fg" name="findByGeomNear">
+                  <ownedParameter xmi:id="_sF1soGNXEeyTaJrEooS2Fg" name="geom" type="_r767oGNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sF1soWNXEeyTaJrEooS2Fg" name="d" type="_r7VFwWNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sF1somNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sF2TsGNXEeyTaJrEooS2Fg" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_sF26wGNXEeyTaJrEooS2Fg" name="getEuropeRussia">
+                  <ownedParameter xmi:id="_sF3h0GNXEeyTaJrEooS2Fg" name="europe" type="_r662EGNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sF3h0WNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sF3h0mNXEeyTaJrEooS2Fg" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_sF5XAGNXEeyTaJrEooS2Fg" name="getEuropeCities">
+                  <ownedParameter xmi:id="_sF5-EGNXEeyTaJrEooS2Fg" name="europe" type="_r662EGNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sF5-EWNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sF5-EmNXEeyTaJrEooS2Fg" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_sGJOoGNXEeyTaJrEooS2Fg" name="save">
+                  <ownedParameter xmi:id="_sGJOoWNXEeyTaJrEooS2Fg" name="city" type="_sF7zQWNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sGKcwGNXEeyTaJrEooS2Fg" type="_sF7zQWNXEeyTaJrEooS2Fg" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_rxIn8GNXEeyTaJrEooS2Fg" name="ContinentMongoRepo">
+                <generalization xmi:id="_sGM5AGNXEeyTaJrEooS2Fg" general="_r8WZcGNXEeyTaJrEooS2Fg"/>
+                <ownedAttribute xmi:id="_rxJ2EGNXEeyTaJrEooS2Fg" name="europePoints" isReadOnly="true"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_sElIYGNXEeyTaJrEooS2Fg" name="City10MongoRepo"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_sF7zQWNXEeyTaJrEooS2Fg" name="S"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_rrO0QGNXEeyTaJrEooS2Fg" name="neo4j">
+            <packagedElement xmi:type="uml:Package" xmi:id="_rrO0QWNXEeyTaJrEooS2Fg" name="entities">
+              <packagedElement xmi:type="uml:Class" xmi:id="_rxOHgGNXEeyTaJrEooS2Fg" name="City5">
+                <ownedAttribute xmi:id="_sIk3kGNXEeyTaJrEooS2Fg" name="id" visibility="private" type="_sGZGQGNXEeyTaJrEooS2Fg"/>
+                <ownedAttribute xmi:id="_sInT0WNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_sIn64WNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_sIoh8WNXEeyTaJrEooS2Fg" name="coordinate" visibility="private" type="_r6OSgWNXEeyTaJrEooS2Fg" association="_sMDCUWNXEeyTaJrEooS2Fg"/>
+                <ownedAttribute xmi:id="_sIpJAGNXEeyTaJrEooS2Fg" name="coordinates" isReadOnly="true"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKYOYGNXEeyTaJrEooS2Fg" name="City5" specification="_rxRK0GNXEeyTaJrEooS2Fg">
+                  <ownedParameter xmi:id="_sKYOYWNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" direction="return"/>
+                  <language>java</language>
+                  <body>// Empty constructor required as of Neo4j API 2.0.5&#xD;
+  </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKY1cGNXEeyTaJrEooS2Fg" name="City5" specification="_sGl6kGNXEeyTaJrEooS2Fg">
+                  <ownedParameter xmi:id="_sKY1cWNXEeyTaJrEooS2Fg" name="city">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_sKY1cmNXEeyTaJrEooS2Fg" name="country">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_sKY1c2NXEeyTaJrEooS2Fg" name="coordinate" type="_r6OSgWNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sKY1dGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" direction="return"/>
+                  <language>java</language>
+                  <body>this.city = city;&#xD;
+ this.country = country;&#xD;
+ this.coordinate =  coordinate;&#xD;
+  </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKY1dWNXEeyTaJrEooS2Fg" name="toString" specification="_rxTAAGNXEeyTaJrEooS2Fg">
+                  <ownedParameter xmi:id="_sKY1dmNXEeyTaJrEooS2Fg" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return this.city + ' ' + this.coordinate; &#xD;
+  </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKaDkGNXEeyTaJrEooS2Fg" name="setCoordinate" specification="_sGnvwGNXEeyTaJrEooS2Fg">
+                  <ownedParameter xmi:id="_sKaDkWNXEeyTaJrEooS2Fg" name="coordinate" type="_r6OSgWNXEeyTaJrEooS2Fg"/>
+                  <language>java</language>
+                  <body>this.coordinate =  coordinate;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKaDkmNXEeyTaJrEooS2Fg" name="setId" specification="_sGo94WNXEeyTaJrEooS2Fg">
+                  <ownedParameter xmi:id="_sKaDk2NXEeyTaJrEooS2Fg" name="id" type="_sGZGQGNXEeyTaJrEooS2Fg"/>
+                  <language>java</language>
+                  <body>this.id = id;&#xD;
+</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_rxRK0GNXEeyTaJrEooS2Fg" name="City5" method="_sKYOYGNXEeyTaJrEooS2Fg">
+                  <eAnnotations xmi:id="_rxRx4GNXEeyTaJrEooS2Fg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_rxRx4WNXEeyTaJrEooS2Fg" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_rxRx4mNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_rxTAAGNXEeyTaJrEooS2Fg" name="toString" method="_sKY1dWNXEeyTaJrEooS2Fg">
+                  <ownedParameter xmi:id="_rxTAAWNXEeyTaJrEooS2Fg" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_sGl6kGNXEeyTaJrEooS2Fg" name="City5" method="_sKY1cGNXEeyTaJrEooS2Fg">
+                  <eAnnotations xmi:id="_sGmho2NXEeyTaJrEooS2Fg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_sGmhpGNXEeyTaJrEooS2Fg" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_sGmhoGNXEeyTaJrEooS2Fg" name="city">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_sGmhoWNXEeyTaJrEooS2Fg" name="country">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_sGmhomNXEeyTaJrEooS2Fg" name="coordinate" type="_r6OSgWNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sGmhpWNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_sGnvwGNXEeyTaJrEooS2Fg" name="setCoordinate" method="_sKaDkGNXEeyTaJrEooS2Fg">
+                  <ownedParameter xmi:id="_sGoW0GNXEeyTaJrEooS2Fg" name="coordinate" type="_r6OSgWNXEeyTaJrEooS2Fg"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_sGo94WNXEeyTaJrEooS2Fg" name="setId" method="_sKaDkmNXEeyTaJrEooS2Fg">
+                  <ownedParameter xmi:id="_sGpk8GNXEeyTaJrEooS2Fg" name="id" type="_sGZGQGNXEeyTaJrEooS2Fg"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_sMDCUWNXEeyTaJrEooS2Fg" name="" memberEnd="_sMDCUmNXEeyTaJrEooS2Fg _sIoh8WNXEeyTaJrEooS2Fg">
+                <ownedEnd xmi:id="_sMDCUmNXEeyTaJrEooS2Fg" name="" type="_rxOHgGNXEeyTaJrEooS2Fg" association="_sMDCUWNXEeyTaJrEooS2Fg"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_rtgFIGNXEeyTaJrEooS2Fg" name="repo">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_rxd_IGNXEeyTaJrEooS2Fg" name="City5Repository">
+                <generalization xmi:id="_sGsBMGNXEeyTaJrEooS2Fg" general="_r__jUGNXEeyTaJrEooS2Fg"/>
+                <ownedAttribute xmi:id="_rxiQkGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100" isReadOnly="true"/>
+                <ownedAttribute xmi:id="_rxl68GNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200" isReadOnly="true"/>
+                <ownedAttribute xmi:id="_rxo-QGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500" isReadOnly="true"/>
+                <ownedAttribute xmi:id="_rxud0GNXEeyTaJrEooS2Fg" name="europeRussia" isReadOnly="true"/>
+                <ownedAttribute xmi:id="_rxxhIGNXEeyTaJrEooS2Fg" name="europeCities" isReadOnly="true"/>
+                <ownedOperation xmi:id="_rx0kcGNXEeyTaJrEooS2Fg" name="findAll">
+                  <ownedParameter xmi:id="_rx0kcWNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rx0kcmNXEeyTaJrEooS2Fg" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_sHGQ4GNXEeyTaJrEooS2Fg" name="save">
+                  <ownedParameter xmi:id="_sHG38GNXEeyTaJrEooS2Fg" name="city" type="_sG5ckGNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sHHfAGNXEeyTaJrEooS2Fg" type="_sG5ckGNXEeyTaJrEooS2Fg" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_sG5ckGNXEeyTaJrEooS2Fg" name="S"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_rrPbUGNXEeyTaJrEooS2Fg" name="postgis">
+            <packagedElement xmi:type="uml:Package" xmi:id="_rrPbUWNXEeyTaJrEooS2Fg" name="entities">
+              <packagedElement xmi:type="uml:Class" xmi:id="_ryEcEGNXEeyTaJrEooS2Fg" name="City5Postgis">
+                <ownedAttribute xmi:id="_sIsMUGNXEeyTaJrEooS2Fg" name="id" visibility="public" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_sIuBhWNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_sI3LcGNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_sJDYsGNXEeyTaJrEooS2Fg" name="geom" type="_sB7dAWNXEeyTaJrEooS2Fg" association="_sMLlMWNXEeyTaJrEooS2Fg"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKb4wGNXEeyTaJrEooS2Fg" name="City5Postgis" specification="_sHM-kGNXEeyTaJrEooS2Fg">
+                  <ownedParameter xmi:id="_sKb4wWNXEeyTaJrEooS2Fg" name="id">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_sKb4wmNXEeyTaJrEooS2Fg" name="city">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_sKb4w2NXEeyTaJrEooS2Fg" name="country">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_sKb4xGNXEeyTaJrEooS2Fg" name="geom" type="_sB7dAWNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sKb4xWNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" direction="return"/>
+                  <language>java</language>
+                  <body>this.id = id;&#xD;
+		this.city = city;&#xD;
+		this.country = country;&#xD;
+		this.geom = geom;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_ryc2kGNXEeyTaJrEooS2Fg" name="City5Postgis">
+                  <eAnnotations xmi:id="_ryddoGNXEeyTaJrEooS2Fg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_ryddoWNXEeyTaJrEooS2Fg" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_ryeEsWNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_sHM-kGNXEeyTaJrEooS2Fg" name="City5Postgis" method="_sKb4wGNXEeyTaJrEooS2Fg">
+                  <eAnnotations xmi:id="_sHOMsGNXEeyTaJrEooS2Fg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_sHOMsWNXEeyTaJrEooS2Fg" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_sHM-kWNXEeyTaJrEooS2Fg" name="id">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_sHM-kmNXEeyTaJrEooS2Fg" name="city">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_sHNloGNXEeyTaJrEooS2Fg" name="country">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_sHNloWNXEeyTaJrEooS2Fg" name="geom" type="_sB7dAWNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sHOMsmNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_r5ZzIGNXEeyTaJrEooS2Fg" name="City10Postgis"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_sMLlMWNXEeyTaJrEooS2Fg" name="" memberEnd="_sMLlMmNXEeyTaJrEooS2Fg _sJDYsGNXEeyTaJrEooS2Fg">
+                <ownedEnd xmi:id="_sMLlMmNXEeyTaJrEooS2Fg" name="" type="_ryEcEGNXEeyTaJrEooS2Fg" association="_sMLlMWNXEeyTaJrEooS2Fg"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_ruHwMGNXEeyTaJrEooS2Fg" name="repo">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_ryqR8GNXEeyTaJrEooS2Fg" name="City5PostgisRepo">
+                <generalization xmi:id="_sHRQAGNXEeyTaJrEooS2Fg" general="_sCT3gGNXEeyTaJrEooS2Fg"/>
+                <ownedAttribute xmi:id="_rysHIGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100" visibility="package" isReadOnly="true"/>
+                <ownedAttribute xmi:id="_ryvxgGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200" isReadOnly="true"/>
+                <ownedAttribute xmi:id="_ryy00GNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500" isReadOnly="true"/>
+                <ownedAttribute xmi:id="_ry2fMGNXEeyTaJrEooS2Fg" name="europeRussia" isReadOnly="true"/>
+                <ownedAttribute xmi:id="_ry5igGNXEeyTaJrEooS2Fg" name="europeCities" isReadOnly="true"/>
+                <ownedOperation xmi:id="_sC5GUGNXEeyTaJrEooS2Fg" name="save">
+                  <ownedParameter xmi:id="_sC5tYGNXEeyTaJrEooS2Fg" name="city" type="_ryEcEGNXEeyTaJrEooS2Fg"/>
+                  <ownedParameter xmi:id="_sC5tYWNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_sEtEMGNXEeyTaJrEooS2Fg" name="City10PostgisRepo"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_rrRQgGNXEeyTaJrEooS2Fg" name="service">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_rzCFYGNXEeyTaJrEooS2Fg" name="City5Service">
+              <ownedAttribute xmi:id="_rzDTgGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100" visibility="package" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sK5y0mNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLkhMGNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzD6kGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200" visibility="package" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sK6Z4GNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLlIQGNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzEhoGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500" visibility="package" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sK7A8GNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLlIQWNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzFvwGNXEeyTaJrEooS2Fg" name="europeRussia" visibility="package" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sK7oAGNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLlIQmNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzGW0GNXEeyTaJrEooS2Fg" name="europeCities" visibility="package" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sK8PEGNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rzG94GNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzMdcGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100Postgis" visibility="package" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sK82IGNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rzNrkGNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzOSoGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200Postgis" visibility="package" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sK9dMGNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rzO5sGNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzPgwGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500Postgis" visibility="package" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sK-EQGNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rzQH0GNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzQu4GNXEeyTaJrEooS2Fg" name="europeRussiaPostgis" visibility="package" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sK-rUGNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rzQu4WNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzRV8GNXEeyTaJrEooS2Fg" name="europeCitiesPostgis" visibility="package" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sK_SYGNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rzR9AGNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzUZQGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100Mongo" visibility="package" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sK_5cGNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLlvUGNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzVnYGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200Mongo" visibility="package" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sLAggGNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLm9cGNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzWOcGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500Mongo" visibility="package" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sLBHkGNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLnkgGNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzW1gGNXEeyTaJrEooS2Fg" name="europeRussiaMongo" visibility="package" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sLBuoGNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLnkgWNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_rzXckGNXEeyTaJrEooS2Fg" name="europeCitiesMongo" visibility="package" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" association="_sLBuomNXEeyTaJrEooS2Fg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLnkgmNXEeyTaJrEooS2Fg" value="*"/>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_rzIMAGNXEeyTaJrEooS2Fg" name="saveNeo4j">
+                <ownedParameter xmi:id="_rzIzEGNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzIzEWNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzIzEmNXEeyTaJrEooS2Fg" name="lat">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzIzE2NXEeyTaJrEooS2Fg" name="lng">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sC8wsGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_rzKBMGNXEeyTaJrEooS2Fg" name="findAll">
+                <ownedParameter xmi:id="_rzKBMWNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rzKBMmNXEeyTaJrEooS2Fg" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_rzSkEGNXEeyTaJrEooS2Fg" name="savePostgis">
+                <ownedParameter xmi:id="_rzSkEWNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzTLIGNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzTLIWNXEeyTaJrEooS2Fg" name="lat">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzTyMGNXEeyTaJrEooS2Fg" name="lng">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sC9XwGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_rzYDoGNXEeyTaJrEooS2Fg" name="saveMongo">
+                <ownedParameter xmi:id="_rzYqsGNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzYqsWNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzYqsmNXEeyTaJrEooS2Fg" name="lat">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzYqs2NXEeyTaJrEooS2Fg" name="lng">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sC9-0GNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sK5y0mNXEeyTaJrEooS2Fg" name="" memberEnd="_rzDTgGNXEeyTaJrEooS2Fg _sK5y02NXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sK5y02NXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sK5y0mNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sK6Z4GNXEeyTaJrEooS2Fg" name="" memberEnd="_rzD6kGNXEeyTaJrEooS2Fg _sK6Z4WNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sK6Z4WNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sK6Z4GNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sK7A8GNXEeyTaJrEooS2Fg" name="" memberEnd="_rzEhoGNXEeyTaJrEooS2Fg _sK7A8WNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sK7A8WNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sK7A8GNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sK7oAGNXEeyTaJrEooS2Fg" name="" memberEnd="_rzFvwGNXEeyTaJrEooS2Fg _sK7oAWNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sK7oAWNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sK7oAGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sK8PEGNXEeyTaJrEooS2Fg" name="" memberEnd="_rzGW0GNXEeyTaJrEooS2Fg _sK8PEWNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sK8PEWNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sK8PEGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sK82IGNXEeyTaJrEooS2Fg" name="" memberEnd="_rzMdcGNXEeyTaJrEooS2Fg _sK82IWNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sK82IWNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sK82IGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sK9dMGNXEeyTaJrEooS2Fg" name="" memberEnd="_rzOSoGNXEeyTaJrEooS2Fg _sK9dMWNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sK9dMWNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sK9dMGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sK-EQGNXEeyTaJrEooS2Fg" name="" memberEnd="_rzPgwGNXEeyTaJrEooS2Fg _sK-EQWNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sK-EQWNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sK-EQGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sK-rUGNXEeyTaJrEooS2Fg" name="" memberEnd="_rzQu4GNXEeyTaJrEooS2Fg _sK-rUWNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sK-rUWNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sK-rUGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sK_SYGNXEeyTaJrEooS2Fg" name="" memberEnd="_rzRV8GNXEeyTaJrEooS2Fg _sK_SYWNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sK_SYWNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sK_SYGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sK_5cGNXEeyTaJrEooS2Fg" name="" memberEnd="_rzUZQGNXEeyTaJrEooS2Fg _sK_5cWNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sK_5cWNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sK_5cGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sLAggGNXEeyTaJrEooS2Fg" name="" memberEnd="_rzVnYGNXEeyTaJrEooS2Fg _sLAggWNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sLAggWNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sLAggGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sLBHkGNXEeyTaJrEooS2Fg" name="" memberEnd="_rzWOcGNXEeyTaJrEooS2Fg _sLBHkWNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sLBHkWNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sLBHkGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sLBuoGNXEeyTaJrEooS2Fg" name="" memberEnd="_rzW1gGNXEeyTaJrEooS2Fg _sLBuoWNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sLBuoWNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sLBuoGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sLBuomNXEeyTaJrEooS2Fg" name="" memberEnd="_rzXckGNXEeyTaJrEooS2Fg _sLCVsGNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sLCVsGNXEeyTaJrEooS2Fg" name="" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sLBuomNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_rsA3YGNXEeyTaJrEooS2Fg" name="controller">
+            <packagedElement xmi:type="uml:Class" xmi:id="_rv88MGNXEeyTaJrEooS2Fg" name="City5Controller">
+              <ownedAttribute xmi:id="_sHtU4GNXEeyTaJrEooS2Fg" name="service" visibility="private" type="_rzCFYGNXEeyTaJrEooS2Fg" association="_sL21EGNXEeyTaJrEooS2Fg"/>
+              <ownedAttribute xmi:id="_sHujAWNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sHw_QWNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sHzbgmNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sH13wWNXEeyTaJrEooS2Fg" name="europeRussia" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sH4UAGNXEeyTaJrEooS2Fg" name="europeCities" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sH7-YGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100Postgis" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sH-aomNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200Postgis" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sIA242NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500Postgis" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sIDTImNXEeyTaJrEooS2Fg" name="europeRussiaPostgis" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sIG9gGNXEeyTaJrEooS2Fg" name="europeCitiesPostgis" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sIIys2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100Mongo" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sIL2AmNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200Mongo" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sIOSQGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500Mongo" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sIQugGNXEeyTaJrEooS2Fg" name="europeRussiaMongo" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sITKw2NXEeyTaJrEooS2Fg" name="europeCitiesMongo" isReadOnly="true"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKBpEGNXEeyTaJrEooS2Fg" name="save" specification="_sFUvQGNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_sKBpEWNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKBpEmNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKBpE2NXEeyTaJrEooS2Fg" name="lat" type="_sFH68WNXEeyTaJrEooS2Fg"/>
+                <ownedParameter xmi:id="_sKBpFGNXEeyTaJrEooS2Fg" name="lng" type="_sFH68WNXEeyTaJrEooS2Fg"/>
+                <ownedParameter xmi:id="_sKBpFWNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" direction="return"/>
+                <language>java</language>
+                <body>return service.saveNeo4j(city, country, lat, lng);&#xD;
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKC3MGNXEeyTaJrEooS2Fg" name="findAll" specification="_rwIiYGNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_sKC3MWNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKC3MmNXEeyTaJrEooS2Fg" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return service.findAll();&#xD;
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKN2UGNXEeyTaJrEooS2Fg" name="savePostgis" specification="_sFa14GNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_sKN2UWNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKN2UmNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKN2U2NXEeyTaJrEooS2Fg" name="lat" type="_sFH68WNXEeyTaJrEooS2Fg"/>
+                <ownedParameter xmi:id="_sKN2VGNXEeyTaJrEooS2Fg" name="lng" type="_sFH68WNXEeyTaJrEooS2Fg"/>
+                <ownedParameter xmi:id="_sKN2VWNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" direction="return"/>
+                <language>java</language>
+                <body>return service.savePostgis(city, country, lat, lng);&#xD;
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKSu0GNXEeyTaJrEooS2Fg" name="saveMongo" specification="_sFgVcGNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_sKSu0WNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKSu0mNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKSu02NXEeyTaJrEooS2Fg" name="lat" type="_sFH68WNXEeyTaJrEooS2Fg"/>
+                <ownedParameter xmi:id="_sKSu1GNXEeyTaJrEooS2Fg" name="lng" type="_sFH68WNXEeyTaJrEooS2Fg"/>
+                <ownedParameter xmi:id="_sKSu1WNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" direction="return"/>
+                <language>java</language>
+                <body>return service.saveMongo(city, country, lat, lng);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_rwIiYGNXEeyTaJrEooS2Fg" name="findAll" method="_sKC3MGNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_rwJwgGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rwJwgWNXEeyTaJrEooS2Fg" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_sFUvQGNXEeyTaJrEooS2Fg" name="save" method="_sKBpEGNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_sFUvQWNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sFVWUGNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sFVWUWNXEeyTaJrEooS2Fg" name="lat" type="_sFH68WNXEeyTaJrEooS2Fg"/>
+                <ownedParameter xmi:id="_sFVWUmNXEeyTaJrEooS2Fg" name="lng" type="_sFH68WNXEeyTaJrEooS2Fg"/>
+                <ownedParameter xmi:id="_sFV9YGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_sFa14GNXEeyTaJrEooS2Fg" name="savePostgis" method="_sKN2UGNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_sFa14WNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sFa14mNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sFbc8GNXEeyTaJrEooS2Fg" name="lat" type="_sFH68WNXEeyTaJrEooS2Fg"/>
+                <ownedParameter xmi:id="_sFbc8WNXEeyTaJrEooS2Fg" name="lng" type="_sFH68WNXEeyTaJrEooS2Fg"/>
+                <ownedParameter xmi:id="_sFcEAGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_sFgVcGNXEeyTaJrEooS2Fg" name="saveMongo" method="_sKSu0GNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_sFgVcWNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sFgVcmNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sFg8gGNXEeyTaJrEooS2Fg" name="lat" type="_sFH68WNXEeyTaJrEooS2Fg"/>
+                <ownedParameter xmi:id="_sFg8gWNXEeyTaJrEooS2Fg" name="lng" type="_sFH68WNXEeyTaJrEooS2Fg"/>
+                <ownedParameter xmi:id="_sFg8gmNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sL21EGNXEeyTaJrEooS2Fg" name="" memberEnd="_sL21EWNXEeyTaJrEooS2Fg _sHtU4GNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sL21EWNXEeyTaJrEooS2Fg" name="" type="_rv88MGNXEeyTaJrEooS2Fg" association="_sL21EGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_rujOAGNXEeyTaJrEooS2Fg" name="serviceimpl">
+            <packagedElement xmi:type="uml:Class" xmi:id="_rzc8IGNXEeyTaJrEooS2Fg" name="City5ServiceImpl">
+              <ownedAttribute xmi:id="_sJRbIGNXEeyTaJrEooS2Fg" name="cityRepo" visibility="private" type="_rxd_IGNXEeyTaJrEooS2Fg" association="_sMUvIGNXEeyTaJrEooS2Fg"/>
+              <ownedAttribute xmi:id="_sJSpQmNXEeyTaJrEooS2Fg" name="cityRepoPostgis" visibility="private" type="_ryqR8GNXEeyTaJrEooS2Fg" association="_sMdSAWNXEeyTaJrEooS2Fg"/>
+              <ownedAttribute xmi:id="_sJT3YmNXEeyTaJrEooS2Fg" name="cityRepoMongo" visibility="private" type="_rxAFEGNXEeyTaJrEooS2Fg" association="_sMo4MGNXEeyTaJrEooS2Fg"/>
+              <ownedAttribute xmi:id="_sJVFgWNXEeyTaJrEooS2Fg" name="continentRepoMongo" visibility="private" type="_rxIn8GNXEeyTaJrEooS2Fg" association="_sMwM8GNXEeyTaJrEooS2Fg"/>
+              <ownedAttribute xmi:id="_sJWToGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJYv4WNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJalEWNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJcaQmNXEeyTaJrEooS2Fg" name="europeRussia" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJe2gGNXEeyTaJrEooS2Fg" name="europeCities" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJgEoGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100Postgis" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJjH8GNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200Postgis" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJmLQGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500Postgis" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJoAcmNXEeyTaJrEooS2Fg" name="europeRussiaPostgis" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJp1oGNXEeyTaJrEooS2Fg" name="europeCitiesPostgis" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJrq0GNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100Mongo" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJuuIGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200Mongo" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJwjUGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500Mongo" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJyYgmNXEeyTaJrEooS2Fg" name="europeRussiaMongo" isReadOnly="true"/>
+              <ownedAttribute xmi:id="_sJzmoWNXEeyTaJrEooS2Fg" name="europeCitiesMongo" isReadOnly="true"/>
+              <interfaceRealization xmi:id="_sE0Y8GNXEeyTaJrEooS2Fg" client="_rzc8IGNXEeyTaJrEooS2Fg" supplier="_rzCFYGNXEeyTaJrEooS2Fg" contract="_rzCFYGNXEeyTaJrEooS2Fg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKgKMGNXEeyTaJrEooS2Fg" name="saveNeo4j" specification="_rzh0oGNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_sKgKMWNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKgKMmNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKgKM2NXEeyTaJrEooS2Fg" name="lat">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKgKNGNXEeyTaJrEooS2Fg" name="lng">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKgKNWNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" direction="return"/>
+                <language>java</language>
+                <body>Point p = new Point(lat, lng);&#xD;
+		City5 cityNeo4j = new City5();&#xD;
+	   	cityNeo4j.setCity(city);&#xD;
+	   	cityNeo4j.setCountry(country);&#xD;
+	   	cityNeo4j.setCoordinate( p);&#xD;
+		return cityRepo.save(cityNeo4j);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKgKNmNXEeyTaJrEooS2Fg" name="findAll" specification="_rzjCwWNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_sKgKN2NXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKgKOGNXEeyTaJrEooS2Fg" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return cityRepo.findAll();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKh_Y2NXEeyTaJrEooS2Fg" name="savePostgis" specification="_rzlfAGNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_sKh_ZGNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKh_ZWNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKh_ZmNXEeyTaJrEooS2Fg" name="lat">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKh_Z2NXEeyTaJrEooS2Fg" name="lng">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKh_aGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" direction="return"/>
+                <language>java</language>
+                <body>GeometryFactory geometryFactory = new GeometryFactory(new PrecisionModel(), 4326);&#xD;
+		org.locationtech.jts.geom.Point p = geometryFactory.createPoint(new org.locationtech.jts.geom.Coordinate(lng,lat));&#xD;
+		City5Postgis cityPostgis = new City5Postgis();&#xD;
+	   	cityPostgis.setCity(city);&#xD;
+	   	cityPostgis.setCountry(country);&#xD;
+	   	cityPostgis.setGeom(p);&#xD;
+		return cityRepoPostgis.save(cityPostgis);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sKj0kmNXEeyTaJrEooS2Fg" name="saveMongo" specification="_rzoiUGNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_sKj0k2NXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKj0lGNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKj0lWNXEeyTaJrEooS2Fg" name="lat">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKj0lmNXEeyTaJrEooS2Fg" name="lng">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sKj0l2NXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" direction="return"/>
+                <language>java</language>
+                <body>GeoJsonPoint p = new GeoJsonPoint(lng, lat);&#xD;
+			City5Mongo cityMongo = new City5Mongo();&#xD;
+		   	cityMongo.setCity(city);&#xD;
+		   	cityMongo.setCountry(country);&#xD;
+		   	cityMongo.setGeom(p);&#xD;
+			return cityRepoMongo.save(cityMongo);&#xD;
+		</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_rzh0oGNXEeyTaJrEooS2Fg" name="saveNeo4j" method="_sKgKMGNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_rzh0oWNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzh0omNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzibsGNXEeyTaJrEooS2Fg" name="lat">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzibsWNXEeyTaJrEooS2Fg" name="lng">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sE2OIGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_rzjCwWNXEeyTaJrEooS2Fg" name="findAll" method="_sKgKNmNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_rzjp0GNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rzjp0WNXEeyTaJrEooS2Fg" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_rzlfAGNXEeyTaJrEooS2Fg" name="savePostgis" method="_sKh_Y2NXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_rzmGEGNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzmGEWNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzmGEmNXEeyTaJrEooS2Fg" name="lat">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzmGE2NXEeyTaJrEooS2Fg" name="lng">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sE21MGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_rzoiUGNXEeyTaJrEooS2Fg" name="saveMongo" method="_sKj0kmNXEeyTaJrEooS2Fg">
+                <ownedParameter xmi:id="_rzoiUWNXEeyTaJrEooS2Fg" name="city">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzoiUmNXEeyTaJrEooS2Fg" name="country">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzpJYGNXEeyTaJrEooS2Fg" name="lat">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_rzpJYWNXEeyTaJrEooS2Fg" name="lng">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_sE4DUGNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sMUvIGNXEeyTaJrEooS2Fg" name="" memberEnd="_sMUvIWNXEeyTaJrEooS2Fg _sJRbIGNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sMUvIWNXEeyTaJrEooS2Fg" name="" type="_rzc8IGNXEeyTaJrEooS2Fg" association="_sMUvIGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sMdSAWNXEeyTaJrEooS2Fg" name="" memberEnd="_sMdSAmNXEeyTaJrEooS2Fg _sJSpQmNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sMdSAmNXEeyTaJrEooS2Fg" name="" type="_rzc8IGNXEeyTaJrEooS2Fg" association="_sMdSAWNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sMo4MGNXEeyTaJrEooS2Fg" name="" memberEnd="_sMo4MWNXEeyTaJrEooS2Fg _sJT3YmNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sMo4MWNXEeyTaJrEooS2Fg" name="" type="_rzc8IGNXEeyTaJrEooS2Fg" association="_sMo4MGNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_sMwM8GNXEeyTaJrEooS2Fg" name="" memberEnd="_sMwM8WNXEeyTaJrEooS2Fg _sJVFgWNXEeyTaJrEooS2Fg">
+              <ownedEnd xmi:id="_sMwM8WNXEeyTaJrEooS2Fg" name="" type="_rzc8IGNXEeyTaJrEooS2Fg" association="_sMwM8GNXEeyTaJrEooS2Fg"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rrHfgGNXEeyTaJrEooS2Fg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_rrHfgWNXEeyTaJrEooS2Fg" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_rtTQ0GNXEeyTaJrEooS2Fg" name="stream">
+          <packagedElement xmi:type="uml:Class" xmi:id="_r-B0cGNXEeyTaJrEooS2Fg" name="Collectors"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_r3H7MGNXEeyTaJrEooS2Fg" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_r84k8GNXEeyTaJrEooS2Fg" name="Collections"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_r9H1gGNXEeyTaJrEooS2Fg" name="HashSet"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_r9isQWNXEeyTaJrEooS2Fg" name="Optional"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_r9xVwWNXEeyTaJrEooS2Fg" name="Set"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_sFH68GNXEeyTaJrEooS2Fg" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_sFH68WNXEeyTaJrEooS2Fg" name="Double"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_sGZGQGNXEeyTaJrEooS2Fg" name="Long"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rrItoGNXEeyTaJrEooS2Fg" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_rrItoWNXEeyTaJrEooS2Fg" name="neo4j">
+        <packagedElement xmi:type="uml:Package" xmi:id="_rrJUsGNXEeyTaJrEooS2Fg" name="driver">
+          <packagedElement xmi:type="uml:Package" xmi:id="_rrJUsWNXEeyTaJrEooS2Fg" name="types">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_r3a2IGNXEeyTaJrEooS2Fg" name="Point"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_ruUkgGNXEeyTaJrEooS2Fg" name="internal">
+            <packagedElement xmi:type="uml:Package" xmi:id="_ruUkgWNXEeyTaJrEooS2Fg" name="value">
+              <packagedElement xmi:type="uml:Class" xmi:id="_sDgKUWNXEeyTaJrEooS2Fg" name="PointValue"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_r_1LQGNXEeyTaJrEooS2Fg" name="Value"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_sDYOgGNXEeyTaJrEooS2Fg" name="Values"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_ruVLkGNXEeyTaJrEooS2Fg" name="gis">
+          <packagedElement xmi:type="uml:Package" xmi:id="_ruVLkWNXEeyTaJrEooS2Fg" name="spatial">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_sDotMGNXEeyTaJrEooS2Fg" name="EditableLayer"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_sDzsUWNXEeyTaJrEooS2Fg" name="SpatialDatabaseRecord"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_sD_5kWNXEeyTaJrEooS2Fg" name="SpatialDatabaseService"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_rrJ7wGNXEeyTaJrEooS2Fg" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_rrJ7wWNXEeyTaJrEooS2Fg" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_rrLJ4GNXEeyTaJrEooS2Fg" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_rrLJ4WNXEeyTaJrEooS2Fg" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_r3u_MGNXEeyTaJrEooS2Fg" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_rrLw8GNXEeyTaJrEooS2Fg" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_rrLw8WNXEeyTaJrEooS2Fg" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_rrMYAGNXEeyTaJrEooS2Fg" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_r39osWNXEeyTaJrEooS2Fg" name="CrossOrigin"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_r4JO4GNXEeyTaJrEooS2Fg" name="GetMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_r4WqQWNXEeyTaJrEooS2Fg" name="PostMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_r4jekWNXEeyTaJrEooS2Fg" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_r4vr0GNXEeyTaJrEooS2Fg" name="RequestParam"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_r49HMGNXEeyTaJrEooS2Fg" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_rs3L8GNXEeyTaJrEooS2Fg" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_rs3L8WNXEeyTaJrEooS2Fg" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_r6BeMGNXEeyTaJrEooS2Fg" name="Id"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_rs3zAGNXEeyTaJrEooS2Fg" name="geo">
+            <packagedElement xmi:type="uml:Class" xmi:id="_r6OSgWNXEeyTaJrEooS2Fg" name="Point"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_r7VFwWNXEeyTaJrEooS2Fg" name="Distance"/>
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_sEH1YWNXEeyTaJrEooS2Fg" name="Metrics"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_rs4aEGNXEeyTaJrEooS2Fg" name="mongodb">
+            <packagedElement xmi:type="uml:Package" xmi:id="_rs4aEWNXEeyTaJrEooS2Fg" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="_rs4aEmNXEeyTaJrEooS2Fg" name="mapping">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_r6afwWNXEeyTaJrEooS2Fg" name="Document"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_rs_u0GNXEeyTaJrEooS2Fg" name="geo">
+                <packagedElement xmi:type="uml:Class" xmi:id="_r662EGNXEeyTaJrEooS2Fg" name="GeoJsonMultiPolygon"/>
+                <packagedElement xmi:type="uml:Class" xmi:id="_r767oGNXEeyTaJrEooS2Fg" name="GeoJsonPoint"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_rtI4wGNXEeyTaJrEooS2Fg" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_r8WZcGNXEeyTaJrEooS2Fg" name="MongoRepository"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_r8kb4WNXEeyTaJrEooS2Fg" name="Query"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_rtIRsGNXEeyTaJrEooS2Fg" name="jpa">
+            <packagedElement xmi:type="uml:Package" xmi:id="_rtIRsWNXEeyTaJrEooS2Fg" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_r7jvQWNXEeyTaJrEooS2Fg" name="Modifying"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_sCT3gGNXEeyTaJrEooS2Fg" name="JpaRepository"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_sChS4GNXEeyTaJrEooS2Fg" name="Query"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_rtT34GNXEeyTaJrEooS2Fg" name="neo4j">
+            <packagedElement xmi:type="uml:Package" xmi:id="_rtT34WNXEeyTaJrEooS2Fg" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="_rtT34mNXEeyTaJrEooS2Fg" name="schema">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_r-j_8WNXEeyTaJrEooS2Fg" name="Id"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_r-0eoWNXEeyTaJrEooS2Fg" name="Node"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_r_HZkGNXEeyTaJrEooS2Fg" name="Property"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_r_VcAWNXEeyTaJrEooS2Fg" name="Relationship"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_r_jecGNXEeyTaJrEooS2Fg" name="GeneratedValue"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_rtalkGNXEeyTaJrEooS2Fg" name="repository">
+              <packagedElement xmi:type="uml:Package" xmi:id="_rtbMoGNXEeyTaJrEooS2Fg" name="query">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_sALJgGNXEeyTaJrEooS2Fg" name="Query"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_r__jUGNXEeyTaJrEooS2Fg" name="Neo4jRepository"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_rtbzsGNXEeyTaJrEooS2Fg" name="types">
+              <packagedElement xmi:type="uml:Class" xmi:id="_sATsYWNXEeyTaJrEooS2Fg" name="GeographicPoint2d"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_sEPKIWNXEeyTaJrEooS2Fg" name="Coordinate"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_rtbzsWNXEeyTaJrEooS2Fg" name="transaction">
+          <packagedElement xmi:type="uml:Package" xmi:id="_rtbzsmNXEeyTaJrEooS2Fg" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_sAjkAWNXEeyTaJrEooS2Fg" name="Transactional"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_ruCQoGNXEeyTaJrEooS2Fg" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_sCsSAWNXEeyTaJrEooS2Fg" name="Repository"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_sEaJQGNXEeyTaJrEooS2Fg" name="Service"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_rs_HwGNXEeyTaJrEooS2Fg" name="locationtech">
+        <packagedElement xmi:type="uml:Package" xmi:id="_rs_HwWNXEeyTaJrEooS2Fg" name="jts">
+          <packagedElement xmi:type="uml:Package" xmi:id="_rs_HwmNXEeyTaJrEooS2Fg" name="geom">
+            <packagedElement xmi:type="uml:Class" xmi:id="_r6rlgGNXEeyTaJrEooS2Fg" name="MultiPolygon"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_sB7dAWNXEeyTaJrEooS2Fg" name="Point"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_sC_M8GNXEeyTaJrEooS2Fg" name="Envelope"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_sDHIwGNXEeyTaJrEooS2Fg" name="GeometryFactory"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_sDOdgWNXEeyTaJrEooS2Fg" name="PrecisionModel"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_rtxx8GNXEeyTaJrEooS2Fg" name="hibernate">
+        <packagedElement xmi:type="uml:Package" xmi:id="_rt3RgGNXEeyTaJrEooS2Fg" name="annotations">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_sB0IQGNXEeyTaJrEooS2Fg" name="GenericGenerator"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rtHDkGNXEeyTaJrEooS2Fg" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_rtHqoGNXEeyTaJrEooS2Fg" name="transaction">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_r7HqYGNXEeyTaJrEooS2Fg" name="Transactional"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_rtTQ0WNXEeyTaJrEooS2Fg" name="persistence">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_r-STIWNXEeyTaJrEooS2Fg" name="Convert"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_sA3tEGNXEeyTaJrEooS2Fg" name="Column"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_sBFvgGNXEeyTaJrEooS2Fg" name="Entity"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_sBSj0WNXEeyTaJrEooS2Fg" name="GeneratedValue"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_sBbtwGNXEeyTaJrEooS2Fg" name="GenerationType"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_sBjpkWNXEeyTaJrEooS2Fg" name="Id"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_sBsMcGNXEeyTaJrEooS2Fg" name="Table"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rt3RgWNXEeyTaJrEooS2Fg" name="lombok">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_sCD_4GNXEeyTaJrEooS2Fg" name="Data"/>
+    </packagedElement>
+    <profileApplication xmi:id="_qhBq8GNXEeyTaJrEooS2Fg">
+      <eAnnotations xmi:id="_qhMDAGNXEeyTaJrEooS2Fg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ryMX4GNXEeyTaJrEooS2Fg">
+      <eAnnotations xmi:id="_ryM-8GNXEeyTaJrEooS2Fg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_qhN4MGNXEeyTaJrEooS2Fg" base_Package="_qL-A8GNXEeyTaJrEooS2Fg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rwBNoGNXEeyTaJrEooS2Fg" base_Element="_rv88MGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_rwNa4GNXEeyTaJrEooS2Fg" base_Element="_rwIiYGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_rwNa4WNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_rwOpAGNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKsXcGNXEeyTaJrEooS2Fg" value="&quot;/neo4j/all&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_rwUIkGNXEeyTaJrEooS2Fg" base_Element="_rv88MGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_rwUIkWNXEeyTaJrEooS2Fg" name="RestController"/>
+    <annotations xmi:id="_rwUvoGNXEeyTaJrEooS2Fg" name="CrossOrigin">
+      <annotationParameters xmi:id="_rwUvoWNXEeyTaJrEooS2Fg" name="origins" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKqiQGNXEeyTaJrEooS2Fg" value="&quot;http://localhost:4200&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_rwUvomNXEeyTaJrEooS2Fg" name="RequestMapping">
+      <annotationParameters xmi:id="_rwUvo2NXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKqiQWNXEeyTaJrEooS2Fg" value="&quot;/cities5&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rwuYQGNXEeyTaJrEooS2Fg" base_Element="_rwtKIGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_rwwNcGNXEeyTaJrEooS2Fg" base_Element="_rwtKIGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_rwwNcWNXEeyTaJrEooS2Fg" name="Document">
+      <annotationParameters xmi:id="_rww0gGNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKwB0WNXEeyTaJrEooS2Fg" value="&quot;cities5&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rw1F8GNXEeyTaJrEooS2Fg" base_Element="_rwz30GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_rw4JQGNXEeyTaJrEooS2Fg" base_Element="_rw27IGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_rw4wUGNXEeyTaJrEooS2Fg" base_Element="_rwz30GNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_rw4wUWNXEeyTaJrEooS2Fg" name="Document">
+      <annotationParameters xmi:id="_rw4wUmNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKyeEGNXEeyTaJrEooS2Fg" value="&quot;continents&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rw-P4GNXEeyTaJrEooS2Fg" base_Element="_rw9BwGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_rw-28GNXEeyTaJrEooS2Fg" base_Element="_rw9BwGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_rw_eAGNXEeyTaJrEooS2Fg" name="Document"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rxKdIGNXEeyTaJrEooS2Fg" base_Element="_rxJ2EGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_rxLEMGNXEeyTaJrEooS2Fg" name="getEuropePoints">
+      <ownedParameter xmi:id="_r8394GNXEeyTaJrEooS2Fg" type="_rwz30GNXEeyTaJrEooS2Fg" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_rxMSUGNXEeyTaJrEooS2Fg" base_Element="_rxLEMGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_rxMSUWNXEeyTaJrEooS2Fg" name="Query">
+      <annotationParameters xmi:id="_rxMSUmNXEeyTaJrEooS2Fg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK06UWNXEeyTaJrEooS2Fg" value="&quot;{\&quot;properties.CONTINENT\&quot;:\&quot;Europe\&quot;}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rxQjwGNXEeyTaJrEooS2Fg" base_Element="_rxOHgGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_rxSY8GNXEeyTaJrEooS2Fg" base_Element="_rxRK0GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_rxTnEGNXEeyTaJrEooS2Fg" base_Element="_rxTAAGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_rxU1MGNXEeyTaJrEooS2Fg" base_Element="_rxOHgGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_rxU1MWNXEeyTaJrEooS2Fg" name="Node">
+      <annotationParameters xmi:id="_rxU1MmNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK1hYGNXEeyTaJrEooS2Fg" value="&quot;City5&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rxi3oGNXEeyTaJrEooS2Fg" base_Element="_rxiQkGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_rxi3oWNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100">
+      <ownedParameter xmi:id="_rxjesGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rxjesWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_rxks0GNXEeyTaJrEooS2Fg" base_Element="_rxi3oWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_rxks0WNXEeyTaJrEooS2Fg" name="Query">
+      <annotationParameters xmi:id="_rxks0mNXEeyTaJrEooS2Fg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK1hYWNXEeyTaJrEooS2Fg" value="&quot;MATCH (c1:City5) MATCH (c2:City5) WHERE c1.city='Belgrade'  AND  c1.country='Serbia'  AND distance(c1.coordinate,c2.coordinate)&lt;=100000 RETURN DISTINCT c2&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rxl68WNXEeyTaJrEooS2Fg" base_Element="_rxl68GNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_rxmiAGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200">
+      <ownedParameter xmi:id="_rxnJEGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rxnJEWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_rxoXMGNXEeyTaJrEooS2Fg" base_Element="_rxmiAGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_rxoXMWNXEeyTaJrEooS2Fg" name="Query">
+      <annotationParameters xmi:id="_rxoXMmNXEeyTaJrEooS2Fg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK2IcGNXEeyTaJrEooS2Fg" value="&quot;MATCH (c1:City5) WHERE c1.city='Belgrade' AND c1.country='Serbia' MATCH (c2:City5) WHERE distance(c1.coordinate,c2.coordinate)&lt;=200000 RETURN DISTINCT c2&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rxplUGNXEeyTaJrEooS2Fg" base_Element="_rxo-QGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_rxplUWNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500">
+      <ownedParameter xmi:id="_rxqMYGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rxqMYWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_rxt2wGNXEeyTaJrEooS2Fg" base_Element="_rxplUWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_rxt2wWNXEeyTaJrEooS2Fg" name="Query">
+      <annotationParameters xmi:id="_rxt2wmNXEeyTaJrEooS2Fg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK2IcWNXEeyTaJrEooS2Fg" value="&quot;MATCH (c1:City5) WHERE c1.city='Belgrade' AND c1.country='Serbia' MATCH (c2:City5) WHERE distance(c1.coordinate,c2.coordinate)&lt;=500000 RETURN DISTINCT c2&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rxvE4GNXEeyTaJrEooS2Fg" base_Element="_rxud0GNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_rxvr8GNXEeyTaJrEooS2Fg" name="getEuropeRussia">
+      <ownedParameter xmi:id="_rxvr8WNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rxwTAGNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_rxw6EGNXEeyTaJrEooS2Fg" base_Element="_rxvr8GNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_rxw6EWNXEeyTaJrEooS2Fg" name="Query">
+      <annotationParameters xmi:id="_rxw6EmNXEeyTaJrEooS2Fg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK2IcmNXEeyTaJrEooS2Fg" value="&quot;MATCH (c:City5) WHERE c.country= 'Russia'\r\n&quot;&#xD;&#xA;&#x9;&#x9;&#x9;+ &quot;CALL spatial.intersects('Continents', c.coordinate) yield node as n WHERE n.CONTINENT='Europe'\r\n&quot;&#xD;&#xA;&#x9;&#x9;&#x9;+ &quot;RETURN DISTINCT c &quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rxyIMGNXEeyTaJrEooS2Fg" base_Element="_rxxhIGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_rxyIMWNXEeyTaJrEooS2Fg" name="getEuropeCities">
+      <ownedParameter xmi:id="_rxyvQGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rxyvQWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_rxz9YGNXEeyTaJrEooS2Fg" base_Element="_rxyIMWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_rxz9YWNXEeyTaJrEooS2Fg" name="Query">
+      <annotationParameters xmi:id="_rxz9YmNXEeyTaJrEooS2Fg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK2Ic2NXEeyTaJrEooS2Fg" value="&quot;MATCH (c:City5) MATCH (co:Cont) WHERE co.continent='Europe' and spatial.algo.withinPolygon(c.coordinate, co.polygons) RETURN  c &quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <Persistency:Table xmi:id="_ryXXAGNXEeyTaJrEooS2Fg" tableName="cities5" schema="public" base_Classifier="_ryEcEGNXEeyTaJrEooS2Fg"/>
+  <Persistency:JPA1StyledElement xmi:id="_ryYlIGNXEeyTaJrEooS2Fg" base_Element="_ryEcEGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ryeEsGNXEeyTaJrEooS2Fg" base_Element="_ryc2kGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_ryf54GNXEeyTaJrEooS2Fg" base_Element="_ryEcEGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_ryf54WNXEeyTaJrEooS2Fg" name="Data"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ryrgEGNXEeyTaJrEooS2Fg" base_Element="_ryqR8GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rysuMGNXEeyTaJrEooS2Fg" base_Element="_rysHIGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_rytVQGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100" visibility="package">
+      <ownedParameter xmi:id="_ryt8UGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ryt8UWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_ryvKcGNXEeyTaJrEooS2Fg" base_Element="_rytVQGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_ryvKcWNXEeyTaJrEooS2Fg" name="Query">
+      <annotationParameters xmi:id="_ryvKcmNXEeyTaJrEooS2Fg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK39oGNXEeyTaJrEooS2Fg" value="&quot;SELECT c2.* \r\n&quot;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ &quot;FROM  cities5 c1, cities5 c2\r\n&quot;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ &quot;WHERE c1.city='Belgrade' AND c1.country='Serbia'  AND\r\n&quot;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ &quot;&#x9; ST_DWithin(ST_Transform(c1.geom,3035), ST_Transform(c2.geom,3035), 100000)&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_ryvKc2NXEeyTaJrEooS2Fg" name="nativeQuery" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK39oWNXEeyTaJrEooS2Fg" value="true"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rywYkGNXEeyTaJrEooS2Fg" base_Element="_ryvxgGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_rywYkWNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200">
+      <ownedParameter xmi:id="_ryw_oGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ryw_oWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_ryxmsGNXEeyTaJrEooS2Fg" base_Element="_rywYkWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_ryyNwGNXEeyTaJrEooS2Fg" name="Query">
+      <annotationParameters xmi:id="_ryyNwWNXEeyTaJrEooS2Fg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK4ksGNXEeyTaJrEooS2Fg" value="&quot;SELECT c2.* \r\n&quot;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ &quot;FROM  cities5 c1, cities5 c2\r\n&quot;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ &quot;WHERE c1.city='Belgrade' AND c1.country='Serbia'  AND\r\n&quot;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ &quot;&#x9; ST_DWithin(ST_Transform(c1.geom,3035), ST_Transform(c2.geom,3035), 200000)&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_ryyNwmNXEeyTaJrEooS2Fg" name="nativeQuery" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK4ksWNXEeyTaJrEooS2Fg" value="true"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ryzb4GNXEeyTaJrEooS2Fg" base_Element="_ryy00GNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_ryzb4WNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500">
+      <ownedParameter xmi:id="_ry0C8GNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ry0C8WNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_ry1REGNXEeyTaJrEooS2Fg" base_Element="_ryzb4WNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_ry14IGNXEeyTaJrEooS2Fg" name="Query">
+      <annotationParameters xmi:id="_ry14IWNXEeyTaJrEooS2Fg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK5LwGNXEeyTaJrEooS2Fg" value="&quot;SELECT c2.* \r\n&quot;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ &quot;FROM  cities5 c1, cities5 c2\r\n&quot;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ &quot;WHERE c1.city='Belgrade' AND c1.country='Serbia'  AND\r\n&quot;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ &quot;&#x9; ST_DWithin(ST_Transform(c1.geom,3035), ST_Transform(c2.geom,3035), 500000)&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_ry14ImNXEeyTaJrEooS2Fg" name="nativeQuery" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK5LwWNXEeyTaJrEooS2Fg" value="true"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ry3GQGNXEeyTaJrEooS2Fg" base_Element="_ry2fMGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_ry3GQWNXEeyTaJrEooS2Fg" name="getEuropeRussia">
+      <ownedParameter xmi:id="_ry3tUGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ry3tUWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_ry47cGNXEeyTaJrEooS2Fg" base_Element="_ry3GQWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_ry47cWNXEeyTaJrEooS2Fg" name="Query">
+      <annotationParameters xmi:id="_ry47cmNXEeyTaJrEooS2Fg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK5LwmNXEeyTaJrEooS2Fg" value="&quot;SELECT c.* FROM   cities5 c, continents cont&#x9;WHERE c.country ='Russia' AND cont.continent='Europe' AND ST_Intersects(cont.geom, c.geom)&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_ry47c2NXEeyTaJrEooS2Fg" name="nativeQuery" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK5Lw2NXEeyTaJrEooS2Fg" value="true"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ry6JkGNXEeyTaJrEooS2Fg" base_Element="_ry5igGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_ry6JkWNXEeyTaJrEooS2Fg" name="getEuropeCities">
+      <ownedParameter xmi:id="_ry6woGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ry7XsGNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_ry7-wGNXEeyTaJrEooS2Fg" base_Element="_ry6JkWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_ry7-wWNXEeyTaJrEooS2Fg" name="Query">
+      <annotationParameters xmi:id="_ry8l0GNXEeyTaJrEooS2Fg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK5y0GNXEeyTaJrEooS2Fg" value="&quot;SELECT  c.* \r\n&quot;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ &quot;FROM continents cont, cities5 c \r\n&quot;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ &quot;WHERE cont.continent = 'Europe' AND ST_Within(c.geom, cont.geom)&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_ry8l0WNXEeyTaJrEooS2Fg" name="nativeQuery" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK5y0WNXEeyTaJrEooS2Fg" value="true"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_ry9M4GNXEeyTaJrEooS2Fg" base_Element="_ryqR8GNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_ry9M4WNXEeyTaJrEooS2Fg" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rzexUGNXEeyTaJrEooS2Fg" base_Element="_rzc8IGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_rzjCwGNXEeyTaJrEooS2Fg" base_Element="_rzh0oGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_rzkQ4GNXEeyTaJrEooS2Fg" base_Element="_rzjCwWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_rzmtIGNXEeyTaJrEooS2Fg" base_Element="_rzlfAGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_rzpwcGNXEeyTaJrEooS2Fg" base_Element="_rzoiUGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_rzqXgGNXEeyTaJrEooS2Fg" base_Element="_rzc8IGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_rzq-kGNXEeyTaJrEooS2Fg" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_r3aPEGNXEeyTaJrEooS2Fg" base_Element="_r3H7MGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r3uYIGNXEeyTaJrEooS2Fg" base_Element="_r3a2IGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r39osGNXEeyTaJrEooS2Fg" base_Element="_r3u_MGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r4In0GNXEeyTaJrEooS2Fg" base_Element="_r39osWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r4WqQGNXEeyTaJrEooS2Fg" base_Element="_r4JO4GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r4jekGNXEeyTaJrEooS2Fg" base_Element="_r4WqQWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r4vEwGNXEeyTaJrEooS2Fg" base_Element="_r4jekWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r48gIGNXEeyTaJrEooS2Fg" base_Element="_r4vr0GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r5KikGNXEeyTaJrEooS2Fg" base_Element="_r49HMGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r5ZMEGNXEeyTaJrEooS2Fg" base_Element="_r5LJoGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r5mncGNXEeyTaJrEooS2Fg" base_Element="_r5ZzIGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r6OSgGNXEeyTaJrEooS2Fg" base_Element="_r6BeMGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r6afwGNXEeyTaJrEooS2Fg" base_Element="_r6OSgWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r6pJQGNXEeyTaJrEooS2Fg" base_Element="_r6afwWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r66PAGNXEeyTaJrEooS2Fg" base_Element="_r6rlgGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r7DY8GNXEeyTaJrEooS2Fg" base_Element="_r662EGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r7VFwGNXEeyTaJrEooS2Fg" base_Element="_r7HqYGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r7jvQGNXEeyTaJrEooS2Fg" base_Element="_r7VFwWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r76UkGNXEeyTaJrEooS2Fg" base_Element="_r7jvQWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r8VyYGNXEeyTaJrEooS2Fg" base_Element="_r767oGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r8kb4GNXEeyTaJrEooS2Fg" base_Element="_r8WZcGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r8x3QGNXEeyTaJrEooS2Fg" base_Element="_r8kb4WNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r9HOcGNXEeyTaJrEooS2Fg" base_Element="_r84k8GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r9isQGNXEeyTaJrEooS2Fg" base_Element="_r9H1gGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r9xVwGNXEeyTaJrEooS2Fg" base_Element="_r9isQWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r-BNYGNXEeyTaJrEooS2Fg" base_Element="_r9xVwWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r-STIGNXEeyTaJrEooS2Fg" base_Element="_r-B0cGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r-j_8GNXEeyTaJrEooS2Fg" base_Element="_r-STIWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r-0eoGNXEeyTaJrEooS2Fg" base_Element="_r-j_8WNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r_FkYGNXEeyTaJrEooS2Fg" base_Element="_r-0eoWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r_VcAGNXEeyTaJrEooS2Fg" base_Element="_r_HZkGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r_i3YGNXEeyTaJrEooS2Fg" base_Element="_r_VcAWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r_vEoGNXEeyTaJrEooS2Fg" base_Element="_r_jecGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_r_-8QGNXEeyTaJrEooS2Fg" base_Element="_r_1LQGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sAKicGNXEeyTaJrEooS2Fg" base_Element="_r__jUGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sATsYGNXEeyTaJrEooS2Fg" base_Element="_sALJgGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sAjkAGNXEeyTaJrEooS2Fg" base_Element="_sATsYWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sAw_YGNXEeyTaJrEooS2Fg" base_Element="_sAjkAWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sBFIcGNXEeyTaJrEooS2Fg" base_Element="_sA3tEGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sBSj0GNXEeyTaJrEooS2Fg" base_Element="_sBFvgGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sBbGsGNXEeyTaJrEooS2Fg" base_Element="_sBSj0WNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sBjpkGNXEeyTaJrEooS2Fg" base_Element="_sBbtwGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sBrlYGNXEeyTaJrEooS2Fg" base_Element="_sBjpkWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sBzhMGNXEeyTaJrEooS2Fg" base_Element="_sBsMcGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sB7dAGNXEeyTaJrEooS2Fg" base_Element="_sB0IQGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sCDY0GNXEeyTaJrEooS2Fg" base_Element="_sB7dAWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sCNJ0GNXEeyTaJrEooS2Fg" base_Element="_sCD_4GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sCgr0GNXEeyTaJrEooS2Fg" base_Element="_sCT3gGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sCsSAGNXEeyTaJrEooS2Fg" base_Element="_sChS4GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sC4fQGNXEeyTaJrEooS2Fg" base_Element="_sCsSAWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_sC6UcGNXEeyTaJrEooS2Fg" base_Element="_sC5GUGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sDGhsGNXEeyTaJrEooS2Fg" base_Element="_sC_M8GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sDOdgGNXEeyTaJrEooS2Fg" base_Element="_sDHIwGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sDXncGNXEeyTaJrEooS2Fg" base_Element="_sDOdgWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sDgKUGNXEeyTaJrEooS2Fg" base_Element="_sDYOgGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sDoGIGNXEeyTaJrEooS2Fg" base_Element="_sDgKUWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sDzsUGNXEeyTaJrEooS2Fg" base_Element="_sDotMGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sD_5kGNXEeyTaJrEooS2Fg" base_Element="_sDzsUWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sEH1YGNXEeyTaJrEooS2Fg" base_Element="_sD_5kWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sEPKIGNXEeyTaJrEooS2Fg" base_Element="_sEH1YWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sEZiMGNXEeyTaJrEooS2Fg" base_Element="_sEPKIWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sEkhUGNXEeyTaJrEooS2Fg" base_Element="_sEaJQGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sEsdIGNXEeyTaJrEooS2Fg" base_Element="_sElIYGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sEzx4GNXEeyTaJrEooS2Fg" base_Element="_sEtEMGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sFUIMGNXEeyTaJrEooS2Fg" base_Element="_sFH68WNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_sFWkcGNXEeyTaJrEooS2Fg" base_Element="_sFUvQWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFWkcWNXEeyTaJrEooS2Fg" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFXLgGNXEeyTaJrEooS2Fg" base_Element="_sFVWUGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFXLgWNXEeyTaJrEooS2Fg" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFXykGNXEeyTaJrEooS2Fg" base_Element="_sFVWUWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFXykWNXEeyTaJrEooS2Fg" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFYZoGNXEeyTaJrEooS2Fg" base_Element="_sFVWUmNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFYZoWNXEeyTaJrEooS2Fg" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFZAsGNXEeyTaJrEooS2Fg" base_Element="_sFUvQGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFZAsWNXEeyTaJrEooS2Fg" name="PostMapping">
+      <annotationParameters xmi:id="_sFZAsmNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKrwY2NXEeyTaJrEooS2Fg" value="&quot;/neo4j/save&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFcrEGNXEeyTaJrEooS2Fg" base_Element="_sFa14WNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFcrEWNXEeyTaJrEooS2Fg" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFdSIGNXEeyTaJrEooS2Fg" base_Element="_sFa14mNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFdSIWNXEeyTaJrEooS2Fg" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFd5MGNXEeyTaJrEooS2Fg" base_Element="_sFbc8GNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFd5MWNXEeyTaJrEooS2Fg" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFegQGNXEeyTaJrEooS2Fg" base_Element="_sFbc8WNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFegQWNXEeyTaJrEooS2Fg" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFfHUGNXEeyTaJrEooS2Fg" base_Element="_sFa14GNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFfHUWNXEeyTaJrEooS2Fg" name="PostMapping">
+      <annotationParameters xmi:id="_sFfHUmNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKuMoWNXEeyTaJrEooS2Fg" value="&quot;/postgis/save&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFhjkGNXEeyTaJrEooS2Fg" base_Element="_sFgVcWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFhjkWNXEeyTaJrEooS2Fg" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFiKoGNXEeyTaJrEooS2Fg" base_Element="_sFgVcmNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFiKoWNXEeyTaJrEooS2Fg" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFiKomNXEeyTaJrEooS2Fg" base_Element="_sFg8gGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFixsGNXEeyTaJrEooS2Fg" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFixsWNXEeyTaJrEooS2Fg" base_Element="_sFg8gWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFjYwGNXEeyTaJrEooS2Fg" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sFjYwWNXEeyTaJrEooS2Fg" base_Element="_sFgVcGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sFjYwmNXEeyTaJrEooS2Fg" name="PostMapping">
+      <annotationParameters xmi:id="_sFjYw2NXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKwB0GNXEeyTaJrEooS2Fg" value="&quot;/mongo/save&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_sFqGcmNXEeyTaJrEooS2Fg" base_Element="_sFpfYGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Generics xmi:id="_sF0egGNXEeyTaJrEooS2Fg" genericsValue="City5Mongo, String" base_Element="_sFr7oGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sF4I4GNXEeyTaJrEooS2Fg" base_Element="_sF26wGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_sF4v8GNXEeyTaJrEooS2Fg" base_Element="_sF26wGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sF4v8WNXEeyTaJrEooS2Fg" name="Query">
+      <annotationParameters xmi:id="_sF4v8mNXEeyTaJrEooS2Fg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK0TQGNXEeyTaJrEooS2Fg" value="&quot;{\&quot;country\&quot;:\&quot;Russia\&quot;, geom: {$geoIntersects: {$geometry: ?0}}}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sF6lIGNXEeyTaJrEooS2Fg" base_Element="_sF5XAGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_sF7MMGNXEeyTaJrEooS2Fg" base_Element="_sF5XAGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sF7MMWNXEeyTaJrEooS2Fg" name="Query">
+      <annotationParameters xmi:id="_sF7zQGNXEeyTaJrEooS2Fg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK06UGNXEeyTaJrEooS2Fg" value="&quot;{geom: {$geoWithin: {$geometry:  ?0}}}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_sGInkGNXEeyTaJrEooS2Fg" base_Element="_sF7zQWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:TypeParameterDeclaration xmi:id="_sGJ1sGNXEeyTaJrEooS2Fg" typeParameterDeclarationValue="S extends City5Mongo" base_Operation="_sGJOoGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sGLD0GNXEeyTaJrEooS2Fg" base_Element="_sGJOoGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_sGLD0WNXEeyTaJrEooS2Fg" base_Element="_sGJOoGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sGLq4GNXEeyTaJrEooS2Fg" name="Modifying"/>
+    <annotations xmi:id="_sGLq4WNXEeyTaJrEooS2Fg" name="Transactional"/>
+    <annotations xmi:id="_sGLq4mNXEeyTaJrEooS2Fg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_sGX4IGNXEeyTaJrEooS2Fg" genericsValue="ContinentMongo, String" base_Element="_sGM5AGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sGkscGNXEeyTaJrEooS2Fg" base_Element="_sGZGQGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_sGnIsGNXEeyTaJrEooS2Fg" base_Element="_sGl6kGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_sGo94GNXEeyTaJrEooS2Fg" base_Element="_sGnvwGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_sGpk8WNXEeyTaJrEooS2Fg" base_Element="_sGo94WNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Generics xmi:id="_sG4OcGNXEeyTaJrEooS2Fg" genericsValue="City5, Long" base_Element="_sGsBMGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sHFp0GNXEeyTaJrEooS2Fg" base_Element="_sG5ckGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:TypeParameterDeclaration xmi:id="_sHG38WNXEeyTaJrEooS2Fg" typeParameterDeclarationValue="S extends City5" base_Operation="_sHGQ4GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sHHfAWNXEeyTaJrEooS2Fg" base_Element="_sHGQ4GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_sHItIGNXEeyTaJrEooS2Fg" base_Element="_sHGQ4GNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sHItIWNXEeyTaJrEooS2Fg" name="Transactional"/>
+    <annotations xmi:id="_sHItImNXEeyTaJrEooS2Fg" name="Modifying"/>
+    <annotations xmi:id="_sHItI2NXEeyTaJrEooS2Fg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_sHOzwGNXEeyTaJrEooS2Fg" base_Element="_sHM-kGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Generics xmi:id="_sHddQGNXEeyTaJrEooS2Fg" genericsValue="City5Postgis, String" base_Element="_sHRQAGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_sHt78GNXEeyTaJrEooS2Fg" base_Element="_sHtU4GNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sHujAGNXEeyTaJrEooS2Fg" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sHvKEGNXEeyTaJrEooS2Fg" base_Element="_sHujAWNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sHvKEWNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100" method="_sJ67YGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sHvxIGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sHvxIWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sHwYMGNXEeyTaJrEooS2Fg" base_Element="_sHvKEWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sHwYMWNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sHw_QGNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKrJUGNXEeyTaJrEooS2Fg" value="&quot;/neo4j/bg100&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sHxmUGNXEeyTaJrEooS2Fg" base_Element="_sHw_QWNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sHxmUWNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200" method="_sJ8wkGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sHyNYGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sHyNYWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sHy0cGNXEeyTaJrEooS2Fg" base_Element="_sHxmUWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sHzbgGNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sHzbgWNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKrJUWNXEeyTaJrEooS2Fg" value="&quot;/neo4j/bg200&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sH0CkGNXEeyTaJrEooS2Fg" base_Element="_sHzbgmNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sH0CkWNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500" method="_sJ9XoGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sH0poGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sH0poWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sH1QsGNXEeyTaJrEooS2Fg" base_Element="_sH0CkWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sH1QsWNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sH13wGNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKrwYGNXEeyTaJrEooS2Fg" value="&quot;/neo4j/bg500&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sH2e0GNXEeyTaJrEooS2Fg" base_Element="_sH13wWNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sH2e0WNXEeyTaJrEooS2Fg" name="getEuropeRussia" method="_sJ9-sGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sH3F4GNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sH3F4WNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sH3s8GNXEeyTaJrEooS2Fg" base_Element="_sH2e0WNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sH3s8WNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sH3s8mNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKrwYWNXEeyTaJrEooS2Fg" value="&quot;/neo4j/russia&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sH5iIGNXEeyTaJrEooS2Fg" base_Element="_sH4UAGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sH5iIWNXEeyTaJrEooS2Fg" name="getEuropeCities" method="_sJ-lwmNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sH6JMGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sH6JMWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sH6wQGNXEeyTaJrEooS2Fg" base_Element="_sH5iIWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sH7XUGNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sH7XUWNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKrwYmNXEeyTaJrEooS2Fg" value="&quot;/neo4j/europe&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sH8lcGNXEeyTaJrEooS2Fg" base_Element="_sH7-YGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sH8lcWNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100Postgis" method="_sKKzAGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sH9MgGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sH9MgWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sH9zkGNXEeyTaJrEooS2Fg" base_Element="_sH8lcWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sH-aoGNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sH-aoWNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKsXcWNXEeyTaJrEooS2Fg" value="&quot;/postgis/bg100&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sH_BsGNXEeyTaJrEooS2Fg" base_Element="_sH-aomNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sH_owGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200Postgis" method="_sKLaEmNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sH_owWNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sH_owmNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sIA24GNXEeyTaJrEooS2Fg" base_Element="_sH_owGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sIA24WNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sIA24mNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKsXcmNXEeyTaJrEooS2Fg" value="&quot;/postgis/bg200&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sIBd8GNXEeyTaJrEooS2Fg" base_Element="_sIA242NXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sICFAGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500Postgis" method="_sKMBImNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sICFAWNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sICFAmNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sICsEGNXEeyTaJrEooS2Fg" base_Element="_sICFAGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sIDTIGNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sIDTIWNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKtlkGNXEeyTaJrEooS2Fg" value="&quot;/postgis/bg500&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sID6MGNXEeyTaJrEooS2Fg" base_Element="_sIDTImNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sIEhQGNXEeyTaJrEooS2Fg" name="getEuropeRussiaPostgis" method="_sKMoMGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sIEhQWNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sIEhQmNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sIFvYGNXEeyTaJrEooS2Fg" base_Element="_sIEhQGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sIGWcGNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sIGWcWNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKtlkWNXEeyTaJrEooS2Fg" value="&quot;/postgis/russia&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sIHkkGNXEeyTaJrEooS2Fg" base_Element="_sIG9gGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sIHkkWNXEeyTaJrEooS2Fg" name="getEuropeCitiesPostgis" method="_sKNPQGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sIHkkmNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sIILoGNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sIIysGNXEeyTaJrEooS2Fg" base_Element="_sIHkkWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sIIysWNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sIIysmNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKuMoGNXEeyTaJrEooS2Fg" value="&quot;/postgis/europe&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sIJZwGNXEeyTaJrEooS2Fg" base_Element="_sIIys2NXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sIKA0GNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100Mongo" method="_sKOdYGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sIKn4GNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sIKn4WNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sILO8GNXEeyTaJrEooS2Fg" base_Element="_sIKA0GNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sIL2AGNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sIL2AWNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKuMomNXEeyTaJrEooS2Fg" value="&quot;/mongo/bg100&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sIMdEGNXEeyTaJrEooS2Fg" base_Element="_sIL2AmNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sIMdEWNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200Mongo" method="_sKOdY2NXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sINEIGNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sINEIWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sINrMGNXEeyTaJrEooS2Fg" base_Element="_sIMdEWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sINrMWNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sINrMmNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKuzsGNXEeyTaJrEooS2Fg" value="&quot;/mongo/bg200&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sIOSQWNXEeyTaJrEooS2Fg" base_Element="_sIOSQGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sIO5UGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500Mongo" method="_sKPEcmNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sIPgYGNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sIPgYWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sIQHcGNXEeyTaJrEooS2Fg" base_Element="_sIO5UGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sIQHcWNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sIQHcmNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKvawGNXEeyTaJrEooS2Fg" value="&quot;/mongo/bg500&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sIRVkGNXEeyTaJrEooS2Fg" base_Element="_sIQugGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sIRVkWNXEeyTaJrEooS2Fg" name="getEuropeRussiaMongo" method="_sKPrgGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sIR8oGNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sIR8oWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sITKwGNXEeyTaJrEooS2Fg" base_Element="_sIRVkWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sITKwWNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sITKwmNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKvawWNXEeyTaJrEooS2Fg" value="&quot;/mongo/russia&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sITx0GNXEeyTaJrEooS2Fg" base_Element="_sITKw2NXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sITx0WNXEeyTaJrEooS2Fg" name="getEuropeCitiesMongo" method="_sKQSkGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sIUY4GNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sIUY4WNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sIU_8GNXEeyTaJrEooS2Fg" base_Element="_sITx0WNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sIU_8WNXEeyTaJrEooS2Fg" name="GetMapping">
+      <annotationParameters xmi:id="_sIU_8mNXEeyTaJrEooS2Fg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sKvawmNXEeyTaJrEooS2Fg" value="&quot;/mongo/europe&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <Persistency:PrimaryKey xmi:id="_sIYDQGNXEeyTaJrEooS2Fg" base_Property="_sIXcMGNXEeyTaJrEooS2Fg"/>
+  <Persistency:JPA1StyledElement xmi:id="_sIZ4cGNXEeyTaJrEooS2Fg" base_Element="_sIXcMGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_sIafgWNXEeyTaJrEooS2Fg" base_Element="_sIafgGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_sIcUsGNXEeyTaJrEooS2Fg" base_Element="_sIbGkGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_sIc7wGNXEeyTaJrEooS2Fg" base_Element="_sIcUsWNXEeyTaJrEooS2Fg"/>
+  <Persistency:PrimaryKey xmi:id="_sIeJ4GNXEeyTaJrEooS2Fg" base_Property="_sIdi0GNXEeyTaJrEooS2Fg"/>
+  <Persistency:JPA1StyledElement xmi:id="_sIfYAGNXEeyTaJrEooS2Fg" base_Element="_sIdi0GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_sIf_EWNXEeyTaJrEooS2Fg" base_Element="_sIf_EGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_sIgmIWNXEeyTaJrEooS2Fg" base_Element="_sIgmIGNXEeyTaJrEooS2Fg"/>
+  <Persistency:PrimaryKey xmi:id="_sIh0QWNXEeyTaJrEooS2Fg" base_Property="_sIh0QGNXEeyTaJrEooS2Fg"/>
+  <Persistency:JPA1StyledElement xmi:id="_sIjCYGNXEeyTaJrEooS2Fg" base_Element="_sIh0QGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_sIkQgGNXEeyTaJrEooS2Fg" base_Element="_sIjpcGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_sImswGNXEeyTaJrEooS2Fg" base_Element="_sIk3kGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sImswWNXEeyTaJrEooS2Fg" name="Id"/>
+    <annotations xmi:id="_sInT0GNXEeyTaJrEooS2Fg" name="GeneratedValue"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_sIn64GNXEeyTaJrEooS2Fg" base_Element="_sInT0WNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:StyledElement xmi:id="_sIoh8GNXEeyTaJrEooS2Fg" base_Element="_sIn64WNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sIpwEGNXEeyTaJrEooS2Fg" base_Element="_sIpJAGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sIpwEWNXEeyTaJrEooS2Fg" name="getCoordinates" method="_sKZcgGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sIqXIGNXEeyTaJrEooS2Fg" type="_r6OSgWNXEeyTaJrEooS2Fg" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sIszYGNXEeyTaJrEooS2Fg" base_Element="_sIsMUGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Annotations xmi:id="_sItacGNXEeyTaJrEooS2Fg" base_Element="_sIsMUGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sItacWNXEeyTaJrEooS2Fg" name="Id"/>
+    <annotations xmi:id="_sItacmNXEeyTaJrEooS2Fg" name="GeneratedValue">
+      <annotationParameters xmi:id="_sItac2NXEeyTaJrEooS2Fg" name="generator" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK2vgGNXEeyTaJrEooS2Fg" value="&quot;system-uuid&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_sIuBgGNXEeyTaJrEooS2Fg" name="GenericGenerator">
+      <annotationParameters xmi:id="_sIuBgWNXEeyTaJrEooS2Fg" name="name" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK2vgWNXEeyTaJrEooS2Fg" value="&quot;system-uuid&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_sIuBgmNXEeyTaJrEooS2Fg" name="strategy" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK2vgmNXEeyTaJrEooS2Fg" value="&quot;uuid&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_sIuBg2NXEeyTaJrEooS2Fg" name="Column">
+      <annotationParameters xmi:id="_sIuBhGNXEeyTaJrEooS2Fg" name="name" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_sK2vg2NXEeyTaJrEooS2Fg" value="&quot;id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <Persistency:Column xmi:id="_sI1WQGNXEeyTaJrEooS2Fg" base_Property="_sIuBhWNXEeyTaJrEooS2Fg" label="city"/>
+  <Persistency:Column xmi:id="_sJBjgGNXEeyTaJrEooS2Fg" base_Property="_sI3LcGNXEeyTaJrEooS2Fg" label="country"/>
+  <Persistency:Column xmi:id="_sJL7kGNXEeyTaJrEooS2Fg" base_Property="_sJDYsGNXEeyTaJrEooS2Fg" columnDefinition="geometry"/>
+  <UMLLabProfile:Annotations xmi:id="_sJSpQGNXEeyTaJrEooS2Fg" base_Element="_sJRbIGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sJSpQWNXEeyTaJrEooS2Fg" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sJT3YGNXEeyTaJrEooS2Fg" base_Element="_sJSpQmNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sJT3YWNXEeyTaJrEooS2Fg" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sJUecGNXEeyTaJrEooS2Fg" base_Element="_sJT3YmNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sJVFgGNXEeyTaJrEooS2Fg" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_sJVskGNXEeyTaJrEooS2Fg" base_Element="_sJVFgWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sJVskWNXEeyTaJrEooS2Fg" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJW6sGNXEeyTaJrEooS2Fg" base_Element="_sJWToGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJW6sWNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100" method="_sKeVAGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJXhwGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJXhwWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sJYI0GNXEeyTaJrEooS2Fg" base_Element="_sJW6sWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sJYv4GNXEeyTaJrEooS2Fg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJZW8GNXEeyTaJrEooS2Fg" base_Element="_sJYv4WNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJZW8WNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200" method="_sKeVA2NXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJZW8mNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJZW82NXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sJZ-AGNXEeyTaJrEooS2Fg" base_Element="_sJZW8WNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sJalEGNXEeyTaJrEooS2Fg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJbMIGNXEeyTaJrEooS2Fg" base_Element="_sJalEWNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJbMIWNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500" method="_sKe8EmNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJbzMGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJbzMWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sJcaQGNXEeyTaJrEooS2Fg" base_Element="_sJbMIWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sJcaQWNXEeyTaJrEooS2Fg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJdBUGNXEeyTaJrEooS2Fg" base_Element="_sJcaQmNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJdBUWNXEeyTaJrEooS2Fg" name="getEuropeRussia" method="_sKfjIGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJdoYGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJdoYWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJe2gWNXEeyTaJrEooS2Fg" base_Element="_sJe2gGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJfdkGNXEeyTaJrEooS2Fg" name="getEuropeCities" method="_sKfjI2NXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJfdkWNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJfdkmNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJgrsGNXEeyTaJrEooS2Fg" base_Element="_sJgEoGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJgrsWNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100Postgis" method="_sKgxQGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJgrsmNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJhSwGNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sJig4GNXEeyTaJrEooS2Fg" base_Element="_sJgrsWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sJig4WNXEeyTaJrEooS2Fg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJjvAGNXEeyTaJrEooS2Fg" base_Element="_sJjH8GNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJkWEGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200Postgis" method="_sKgxQ2NXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJk9IGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJk9IWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sJlkMGNXEeyTaJrEooS2Fg" base_Element="_sJkWEGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sJlkMWNXEeyTaJrEooS2Fg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJmLQWNXEeyTaJrEooS2Fg" base_Element="_sJmLQGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJmyUGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500Postgis" method="_sKhYUGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJmyUWNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJnZYGNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sJoAcGNXEeyTaJrEooS2Fg" base_Element="_sJmyUGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sJoAcWNXEeyTaJrEooS2Fg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJongGNXEeyTaJrEooS2Fg" base_Element="_sJoAcmNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJongWNXEeyTaJrEooS2Fg" name="getEuropeRussiaPostgis" method="_sKhYU2NXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJpOkGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJpOkWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJqcsGNXEeyTaJrEooS2Fg" base_Element="_sJp1oGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJqcsWNXEeyTaJrEooS2Fg" name="getEuropeCitiesPostgis" method="_sKh_YGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJrDwGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJrDwWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJsR4GNXEeyTaJrEooS2Fg" base_Element="_sJrq0GNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJsR4WNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100Mongo" method="_sKimcGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJs48GNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJtgAGNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sJuHEGNXEeyTaJrEooS2Fg" base_Element="_sJsR4WNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sJuHEWNXEeyTaJrEooS2Fg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJuuIWNXEeyTaJrEooS2Fg" base_Element="_sJuuIGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJvVMGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200Mongo" method="_sKimc2NXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJvVMWNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJvVMmNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sJv8QGNXEeyTaJrEooS2Fg" base_Element="_sJvVMGNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sJv8QWNXEeyTaJrEooS2Fg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJxKYGNXEeyTaJrEooS2Fg" base_Element="_sJwjUGNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJxKYWNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500Mongo" method="_sKjNgGNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJxKYmNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJxxcGNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_sJyYgGNXEeyTaJrEooS2Fg" base_Element="_sJxKYWNXEeyTaJrEooS2Fg">
+    <annotations xmi:id="_sJyYgWNXEeyTaJrEooS2Fg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJy_kGNXEeyTaJrEooS2Fg" base_Element="_sJyYgmNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJy_kWNXEeyTaJrEooS2Fg" name="getEuropeRussiaMongo" method="_sKjNg2NXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJy_kmNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJzmoGNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sJ0NsGNXEeyTaJrEooS2Fg" base_Element="_sJzmoWNXEeyTaJrEooS2Fg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_sJ0NsWNXEeyTaJrEooS2Fg" name="getEuropeCitiesMongo" method="_sKjNhmNXEeyTaJrEooS2Fg">
+      <ownedParameter xmi:id="_sJ00wGNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJ00wWNXEeyTaJrEooS2Fg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <uml:OpaqueBehavior xmi:id="_sJ67YGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100" specification="_sHvKEWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sJ8JgGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJ8JgWNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getAllOnDistanceFromBg100();&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sJ8wkGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200" specification="_sHxmUWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sJ8wkWNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJ8wkmNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getAllOnDistanceFromBg200();&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sJ9XoGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500" specification="_sH0CkWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sJ9XoWNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJ9XomNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getAllOnDistanceFromBg500();&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sJ9-sGNXEeyTaJrEooS2Fg" name="getEuropeRussia" specification="_sH2e0WNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sJ-lwGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJ-lwWNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getEuropeRussia();&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sJ-lwmNXEeyTaJrEooS2Fg" name="getEuropeCities" specification="_sH5iIWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sJ-lw2NXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sJ-lxGNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getEuropeCities();&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKKzAGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100Postgis" specification="_sH8lcWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKLaEGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKLaEWNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getAllOnDistanceFromBg100Postgis();&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKLaEmNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200Postgis" specification="_sH_owGNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKMBIGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKMBIWNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getAllOnDistanceFromBg200Postgis();&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKMBImNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500Postgis" specification="_sICFAGNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKMBI2NXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKMBJGNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getAllOnDistanceFromBg500Postgis();&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKMoMGNXEeyTaJrEooS2Fg" name="getEuropeRussiaPostgis" specification="_sIEhQGNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKMoMWNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKMoMmNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getEuropeRussiaPostgis();&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKNPQGNXEeyTaJrEooS2Fg" name="getEuropeCitiesPostgis" specification="_sIHkkWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKNPQWNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKNPQmNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getEuropeCitiesPostgis();&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKOdYGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100Mongo" specification="_sIKA0GNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKOdYWNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKOdYmNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getAllOnDistanceFromBg100Mongo();&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKOdY2NXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200Mongo" specification="_sIMdEWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKPEcGNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKPEcWNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getAllOnDistanceFromBg200Mongo();&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKPEcmNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500Mongo" specification="_sIO5UGNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKPEc2NXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKPEdGNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getAllOnDistanceFromBg500Mongo();&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKPrgGNXEeyTaJrEooS2Fg" name="getEuropeRussiaMongo" specification="_sIRVkWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKPrgWNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKPrgmNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getEuropeRussiaMongo();&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKQSkGNXEeyTaJrEooS2Fg" name="getEuropeCitiesMongo" specification="_sITx0WNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKQSkWNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKQSkmNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return service.getEuropeCitiesMongo();&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKZcgGNXEeyTaJrEooS2Fg" name="getCoordinates" specification="_sIpwEWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKZcgWNXEeyTaJrEooS2Fg" type="_r6OSgWNXEeyTaJrEooS2Fg" direction="return"/>
+    <language>java</language>
+    <body>return  this.coordinate;&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKcf0GNXEeyTaJrEooS2Fg" name="getId" specification="_sJNJsGNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKcf0WNXEeyTaJrEooS2Fg" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return id;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKcf0mNXEeyTaJrEooS2Fg" name="setId" specification="_sJNwwGNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKcf02NXEeyTaJrEooS2Fg" name="id">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.id = id;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKeVAGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100" specification="_sJW6sWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKeVAWNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKeVAmNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return cityRepo.getAllOnDistanceFromBg100();&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKeVA2NXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200" specification="_sJZW8WNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKe8EGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKe8EWNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return cityRepo.getAllOnDistanceFromBg200();&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKe8EmNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500" specification="_sJbMIWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKe8E2NXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKe8FGNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return cityRepo.getAllOnDistanceFromBg500();&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKfjIGNXEeyTaJrEooS2Fg" name="getEuropeRussia" specification="_sJdBUWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKfjIWNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKfjImNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return cityRepo.getEuropeRussia();&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKfjI2NXEeyTaJrEooS2Fg" name="getEuropeCities" specification="_sJfdkGNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKfjJGNXEeyTaJrEooS2Fg" type="_rxOHgGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKfjJWNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return cityRepo.getEuropeCities();&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKgxQGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100Postgis" specification="_sJgrsWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKgxQWNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKgxQmNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return cityRepoPostgis.getAllOnDistanceFromBg100();&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKgxQ2NXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200Postgis" specification="_sJkWEGNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKgxRGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKgxRWNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return cityRepoPostgis.getAllOnDistanceFromBg100();&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKhYUGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500Postgis" specification="_sJmyUGNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKhYUWNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKhYUmNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return cityRepoPostgis.getAllOnDistanceFromBg100();&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKhYU2NXEeyTaJrEooS2Fg" name="getEuropeRussiaPostgis" specification="_sJongWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKhYVGNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKhYVWNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return cityRepoPostgis.getEuropeRussia();&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKh_YGNXEeyTaJrEooS2Fg" name="getEuropeCitiesPostgis" specification="_sJqcsWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKh_YWNXEeyTaJrEooS2Fg" type="_ryEcEGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKh_YmNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return cityRepoPostgis.getEuropeCities();&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKimcGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg100Mongo" specification="_sJsR4WNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKimcWNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKimcmNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>City5Mongo bg = cityRepoMongo.findByCityAndCountry(&quot;Belgrade&quot;, &quot;Serbia&quot;);&#xD;
+			return cityRepoMongo.findByGeomNear((GeoJsonPoint) bg.getGeom(), new Distance(100, Metrics.KILOMETERS));&#xD;
+			&#xD;
+		</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKimc2NXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg200Mongo" specification="_sJvVMGNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKimdGNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKimdWNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>City5Mongo bg = cityRepoMongo.findByCityAndCountry(&quot;Belgrade&quot;, &quot;Serbia&quot;);&#xD;
+			return cityRepoMongo.findByGeomNear((GeoJsonPoint) bg.getGeom(), new Distance(200, Metrics.KILOMETERS));&#xD;
+		&#xD;
+		</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKjNgGNXEeyTaJrEooS2Fg" name="getAllOnDistanceFromBg500Mongo" specification="_sJxKYWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKjNgWNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKjNgmNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>City5Mongo bg = cityRepoMongo.findByCityAndCountry(&quot;Belgrade&quot;, &quot;Serbia&quot;);&#xD;
+			return cityRepoMongo.findByGeomNear((GeoJsonPoint) bg.getGeom(), new Distance(500, Metrics.KILOMETERS));&#xD;
+			&#xD;
+		</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKjNg2NXEeyTaJrEooS2Fg" name="getEuropeRussiaMongo" specification="_sJy_kWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKjNhGNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKjNhWNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>ContinentMongo europe = continentRepoMongo.getEuropePoints();&#xD;
+			return cityRepoMongo.getEuropeRussia(europe.getGeometry());&#xD;
+		</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_sKjNhmNXEeyTaJrEooS2Fg" name="getEuropeCitiesMongo" specification="_sJ0NsWNXEeyTaJrEooS2Fg">
+    <ownedParameter xmi:id="_sKj0kGNXEeyTaJrEooS2Fg" type="_rwtKIGNXEeyTaJrEooS2Fg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sKj0kWNXEeyTaJrEooS2Fg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>ContinentMongo europe = continentRepoMongo.getEuropePoints();&#xD;
+			//return cityRepoMongo.findByGeomWithin(europe.getGeometry());&#xD;
+			return cityRepoMongo.getEuropeCities(europe.getGeometry());&#xD;
+		</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLJDYGNXEeyTaJrEooS2Fg" base_Property="_sHujAWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLJqcGNXEeyTaJrEooS2Fg" base_Property="_sHw_QWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLLfoGNXEeyTaJrEooS2Fg" base_Property="_sHzbgmNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLMGsGNXEeyTaJrEooS2Fg" base_Property="_sH13wWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLNU0GNXEeyTaJrEooS2Fg" base_Property="_sH4UAGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLOi8GNXEeyTaJrEooS2Fg" base_Property="_sH7-YGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLPxEGNXEeyTaJrEooS2Fg" base_Property="_sH-aomNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLQYIGNXEeyTaJrEooS2Fg" base_Property="_sIA242NXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLQ_MGNXEeyTaJrEooS2Fg" base_Property="_sIDTImNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLRmQGNXEeyTaJrEooS2Fg" base_Property="_sIG9gGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLS0YGNXEeyTaJrEooS2Fg" base_Property="_sIIys2NXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLTbcGNXEeyTaJrEooS2Fg" base_Property="_sIL2AmNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLUCgGNXEeyTaJrEooS2Fg" base_Property="_sIOSQGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLVQoGNXEeyTaJrEooS2Fg" base_Property="_sIQugGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLV3sGNXEeyTaJrEooS2Fg" base_Property="_sITKw2NXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLY7AGNXEeyTaJrEooS2Fg" base_Property="_rxJ2EGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLZiEGNXEeyTaJrEooS2Fg" base_Property="_sIpJAGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLaJIGNXEeyTaJrEooS2Fg" base_Property="_rxiQkGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLawMGNXEeyTaJrEooS2Fg" base_Property="_rxl68GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLb-UGNXEeyTaJrEooS2Fg" base_Property="_rxo-QGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLclYGNXEeyTaJrEooS2Fg" base_Property="_rxud0GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLdMcGNXEeyTaJrEooS2Fg" base_Property="_rxxhIGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLgPwGNXEeyTaJrEooS2Fg" base_Property="_sIsMUGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLhd4GNXEeyTaJrEooS2Fg" base_Property="_rysHIGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLiE8GNXEeyTaJrEooS2Fg" base_Property="_ryvxgGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLjTEGNXEeyTaJrEooS2Fg" base_Property="_ryy00GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLj6IGNXEeyTaJrEooS2Fg" base_Property="_ry2fMGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLj6IWNXEeyTaJrEooS2Fg" base_Property="_ry5igGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLoyoGNXEeyTaJrEooS2Fg" base_Property="_sJWToGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLpZsGNXEeyTaJrEooS2Fg" base_Property="_sJYv4WNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLpZsWNXEeyTaJrEooS2Fg" base_Property="_sJalEWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLqAwGNXEeyTaJrEooS2Fg" base_Property="_sJcaQmNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLqn0GNXEeyTaJrEooS2Fg" base_Property="_sJe2gGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLrO4GNXEeyTaJrEooS2Fg" base_Property="_sJgEoGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLr18GNXEeyTaJrEooS2Fg" base_Property="_sJjH8GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLsdAGNXEeyTaJrEooS2Fg" base_Property="_sJmLQGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLtEEGNXEeyTaJrEooS2Fg" base_Property="_sJoAcmNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLtrIGNXEeyTaJrEooS2Fg" base_Property="_sJp1oGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLuSMGNXEeyTaJrEooS2Fg" base_Property="_sJrq0GNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLu5QGNXEeyTaJrEooS2Fg" base_Property="_sJuuIGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLwHYGNXEeyTaJrEooS2Fg" base_Property="_sJwjUGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLwucGNXEeyTaJrEooS2Fg" base_Property="_sJyYgmNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_sLxVgGNXEeyTaJrEooS2Fg" base_Property="_sJzmoWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sMDCUGNXEeyTaJrEooS2Fg" base_Element="_sL21EGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sMLlMGNXEeyTaJrEooS2Fg" base_Element="_sMDCUWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sMUIEGNXEeyTaJrEooS2Fg" base_Element="_sMLlMWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sMdSAGNXEeyTaJrEooS2Fg" base_Element="_sMUvIGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sMoRIGNXEeyTaJrEooS2Fg" base_Element="_sMdSAWNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sMvl4GNXEeyTaJrEooS2Fg" base_Element="_sMo4MGNXEeyTaJrEooS2Fg"/>
+  <UMLLabProfile:Reference xmi:id="_sM26oGNXEeyTaJrEooS2Fg" base_Element="_sMwM8GNXEeyTaJrEooS2Fg"/>
+</xmi:XMI>

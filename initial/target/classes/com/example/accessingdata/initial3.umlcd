@@ -1,0 +1,2231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_qUAioGNXEeyTaJrEooS2Fg">
+  <modelElement href="initial3.uml#_rq_jsGNXEeyTaJrEooS2Fg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zsriMGNXEeyTaJrEooS2Fg" source="_zsvMkGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sMDCUWNXEeyTaJrEooS2Fg"/>
+    <stereotypes xmi:id="_zssJQGNXEeyTaJrEooS2Fg" name="Reference">
+      <modelElement href="initial3.uml#_sMLlMGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_zssJQWNXEeyTaJrEooS2Fg" text=""/>
+    <sourceRole xmi:id="_zssJQmNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sMDCUmNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_zssJQ2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zssJRGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zssJRWNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="coordinate" navigable="true">
+      <modelElement href="initial3.uml#_sIoh8WNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_zssJRmNXEeyTaJrEooS2Fg" label="-"/>
+      <cardinality xmi:id="_zssJR2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ztL4gGNXEeyTaJrEooS2Fg" target="_zt0xsGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sKxP8GNXEeyTaJrEooS2Fg"/>
+    <nameVisual xmi:id="_ztxuYGNXEeyTaJrEooS2Fg" text=""/>
+    <sourceRole xmi:id="_ztxuYWNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="geom" navigable="true">
+      <modelElement href="initial3.uml#_sIcUsWNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_zty8gGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_ztyVcWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ztyVcGNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sKx3AGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_ztzjkmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_ztzjkWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zuOaUGNXEeyTaJrEooS2Fg" target="_zuijYGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sKyeEWNXEeyTaJrEooS2Fg"/>
+    <nameVisual xmi:id="_zuOaUWNXEeyTaJrEooS2Fg" text=""/>
+    <sourceRole xmi:id="_zuOaUmNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="geometry" navigable="true">
+      <modelElement href="initial3.uml#_sIf_EGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_zuOaU2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zuOaVGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zuOaVWNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sKzFIGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_zuOaVmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zuOaV2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zuh8UGNXEeyTaJrEooS2Fg" sourceAnchor="136.0,0.0" targetAnchor="311.0,135.0" target="_zuijYGNXEeyTaJrEooS2Fg" source="_zu8zEGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sKzsMGNXEeyTaJrEooS2Fg"/>
+    <nameVisual xmi:id="_zuh8UWNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uLbcGNXEeyTaJrEooS2Fg" position="2.0,-0.30769230769237765"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zuh8UmNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="properties" navigable="true">
+      <modelElement href="initial3.uml#_sIgmIGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uKNUmNXEeyTaJrEooS2Fg" position="-70.0,-80.40000000000009"/>
+      <visibility xmi:id="_zuh8U2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zuh8VGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zuh8VWNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sKzsMWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uLbcWNXEeyTaJrEooS2Fg" position="-17.0,35.40000000000009"/>
+      <visibility xmi:id="_zuh8VmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zuh8V2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z0jEwGNXEeyTaJrEooS2Fg" source="_z2Y30GNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sMLlMWNXEeyTaJrEooS2Fg"/>
+    <stereotypes xmi:id="_z0jEwWNXEeyTaJrEooS2Fg" name="Reference">
+      <modelElement href="initial3.uml#_sMUIEGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_z0jEwmNXEeyTaJrEooS2Fg" text=""/>
+    <sourceRole xmi:id="_z0jEw2NXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sMLlMmNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_z0jExGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_z0jExWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_z0jExmNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="geom" navigable="true">
+      <modelElement href="initial3.uml#_sJDYsGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_z0jEx2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_z0jEyGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z45ZQGNXEeyTaJrEooS2Fg" sourceAnchor="0.0,125.0" targetAnchor="277.0,128.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_zsvMkGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sK5y0mNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WMoQGNYEeyTaJrEooS2Fg" sourceX="-284" targetY="456"/>
+    <nameVisual xmi:id="_0FRoYGNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0t8x8GNXEeyTaJrEooS2Fg" position="59.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FRoYWNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="allOnDistanceFromBg100" navigable="true">
+      <modelElement href="initial3.uml#_rzDTgGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0t68wGNXEeyTaJrEooS2Fg" position="-153.0,3.0"/>
+      <visibility xmi:id="_0FecsWNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FecsGNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FSPcGNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sK5y02NXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0t8x8WNXEeyTaJrEooS2Fg" position="5.0,406.9999999999999"/>
+      <visibility xmi:id="_0Fecs2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FecsmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z6HhQGNXEeyTaJrEooS2Fg" sourceAnchor="171.0,0.0" targetAnchor="290.0,128.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_zsvMkGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sK6Z4GNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WNPUGNYEeyTaJrEooS2Fg" sourceY="-18" targetX="442" targetY="313"/>
+    <bendpoints xmi:id="_1WNPUWNYEeyTaJrEooS2Fg" sourceX="-442" sourceY="-18" targetY="313"/>
+    <nameVisual xmi:id="_0FSPcWNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0t-nIGNXEeyTaJrEooS2Fg" position="-162.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FSPcmNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="allOnDistanceFromBg200" navigable="true">
+      <modelElement href="initial3.uml#_rzD6kGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0t9ZAGNXEeyTaJrEooS2Fg" position="-324.0,-14.999999999999886"/>
+      <visibility xmi:id="_0FfDwGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FectGNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FSPc2NXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sK6Z4WNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0t_OMGNXEeyTaJrEooS2Fg" position="5.0,264.0"/>
+      <visibility xmi:id="_0FfDwmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FfDwWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z7G_wGNXEeyTaJrEooS2Fg" sourceAnchor="184.0,0.0" targetAnchor="303.0,128.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_zsvMkGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sK7A8GNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WN2YGNYEeyTaJrEooS2Fg" sourceY="-83" targetX="442" targetY="248"/>
+    <bendpoints xmi:id="_1WN2YWNYEeyTaJrEooS2Fg" sourceX="-442" sourceY="-83" targetY="248"/>
+    <nameVisual xmi:id="_0FSPdGNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uAcUGNXEeyTaJrEooS2Fg" position="-162.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FS2gGNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="allOnDistanceFromBg500" navigable="true">
+      <modelElement href="initial3.uml#_rzEhoGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0t_OMWNXEeyTaJrEooS2Fg" position="-153.0,-80.0"/>
+      <visibility xmi:id="_0FfDxGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FfDw2NXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FS2gWNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sK7A8WNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uAcUWNXEeyTaJrEooS2Fg" position="5.0,198.9999999999999"/>
+      <visibility xmi:id="_0FfDxmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FfDxWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z7tcsGNXEeyTaJrEooS2Fg" sourceAnchor="197.0,0.0" targetAnchor="316.0,128.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_zsvMkGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sK7oAGNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WOdcGNYEeyTaJrEooS2Fg" sourceY="-161" targetX="442" targetY="170"/>
+    <bendpoints xmi:id="_1WOdcWNYEeyTaJrEooS2Fg" sourceX="-442" sourceY="-161" targetY="170"/>
+    <nameVisual xmi:id="_0FS2gmNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uBqcGNXEeyTaJrEooS2Fg" position="85.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FS2g2NXEeyTaJrEooS2Fg" aggregationKind="NONE" name="europeRussia" navigable="true">
+      <modelElement href="initial3.uml#_rzFvwGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uAcUmNXEeyTaJrEooS2Fg" position="-95.0,-133.0"/>
+      <visibility xmi:id="_0FfDyGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FfDx2NXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FTdkGNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sK7oAWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uBqcWNXEeyTaJrEooS2Fg" position="5.0,121.0"/>
+      <visibility xmi:id="_0Ffq0GNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FfDyWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z8kYUGNXEeyTaJrEooS2Fg" sourceAnchor="197.0,249.0" targetAnchor="264.0,128.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_zsvMkGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sK8PEGNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WPEgGNYEeyTaJrEooS2Fg" sourceY="84" targetX="494" targetY="664"/>
+    <bendpoints xmi:id="_1WQSoGNYEeyTaJrEooS2Fg" sourceX="-494" sourceY="84" targetY="664"/>
+    <nameVisual xmi:id="_0FTdkWNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uC4kGNXEeyTaJrEooS2Fg" position="215.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FTdkmNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="europeCities" navigable="true">
+      <modelElement href="initial3.uml#_rzGW0GNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uCRgGNXEeyTaJrEooS2Fg" position="11.0,5.0"/>
+      <visibility xmi:id="_0Ffq0mNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0Ffq0WNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FTdk2NXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sK8PEWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uDfoGNXEeyTaJrEooS2Fg" position="5.0,615.0"/>
+      <visibility xmi:id="_0FgR4GNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0Ffq02NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z9Y3sGNXEeyTaJrEooS2Fg" sourceAnchor="264.0,0.0" targetAnchor="199.0,128.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_z2Y30GNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sK82IGNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WTV8WNYEeyTaJrEooS2Fg" sourceY="-95" targetX="-533" targetY="66"/>
+    <bendpoints xmi:id="_1WT9AGNYEeyTaJrEooS2Fg" sourceX="533" sourceY="-95" targetY="66"/>
+    <nameVisual xmi:id="_0FUEoGNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uNQoGNXEeyTaJrEooS2Fg" position="196.0,-9.000000000000057"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FUEoWNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="allOnDistanceFromBg100Postgis" navigable="true">
+      <modelElement href="initial3.uml#_rzMdcGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uMCgGNXEeyTaJrEooS2Fg" position="5.0,-144.0"/>
+      <visibility xmi:id="_0FgR4mNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FgR4WNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FUrsGNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sK82IWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uNQoWNXEeyTaJrEooS2Fg" position="-20.0,69.0"/>
+      <visibility xmi:id="_0FgR5GNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FgR42NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z-K60GNXEeyTaJrEooS2Fg" sourceAnchor="277.0,0.0" targetAnchor="212.0,128.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_z2Y30GNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sK9dMGNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WVLIGNYEeyTaJrEooS2Fg" sourceY="-30" targetX="-533" targetY="131"/>
+    <bendpoints xmi:id="_1WVLIWNYEeyTaJrEooS2Fg" sourceX="533" sourceY="-30" targetY="131"/>
+    <nameVisual xmi:id="_0FUrsWNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uOewGNXEeyTaJrEooS2Fg" position="183.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FUrsmNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="allOnDistanceFromBg200Postgis" navigable="true">
+      <modelElement href="initial3.uml#_rzOSoGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uNQomNXEeyTaJrEooS2Fg" position="5.0,-79.0"/>
+      <visibility xmi:id="_0FgR5mNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FgR5WNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FUrs2NXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sK9dMWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uOewWNXEeyTaJrEooS2Fg" position="-20.0,134.0"/>
+      <visibility xmi:id="_0Fg48WNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0Fg48GNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z_BPYGNXEeyTaJrEooS2Fg" sourceAnchor="502.0,87.0" targetAnchor="225.0,128.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_z2Y30GNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sK-EQGNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WVyMGNYEeyTaJrEooS2Fg" sourceX="321" targetY="248"/>
+    <nameVisual xmi:id="_0FVSwGNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uPs4GNXEeyTaJrEooS2Fg" position="-71.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FVSwWNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="allOnDistanceFromBg500Postgis" navigable="true">
+      <modelElement href="initial3.uml#_rzPgwGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uOewmNXEeyTaJrEooS2Fg" position="5.0,-49.0"/>
+      <visibility xmi:id="_0Fg482NXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0Fg48mNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FVSwmNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sK-EQWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uPs4WNXEeyTaJrEooS2Fg" position="-20.0,251.0"/>
+      <visibility xmi:id="_0Fg49WNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0Fg49GNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z_z5kGNXEeyTaJrEooS2Fg" sourceAnchor="251.0,173.0" targetAnchor="238.0,128.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_z2Y30GNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sK-rUGNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WWZQGNYEeyTaJrEooS2Fg" sourceY="83" targetX="-585" targetY="417"/>
+    <bendpoints xmi:id="_1WWZQWNYEeyTaJrEooS2Fg" sourceX="585" sourceY="83" targetY="417"/>
+    <nameVisual xmi:id="_0FVSw2NXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uQT8GNXEeyTaJrEooS2Fg" position="-142.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FVSxGNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="europeRussiaPostgis" navigable="true">
+      <modelElement href="initial3.uml#_rzQu4GNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uPs4mNXEeyTaJrEooS2Fg" position="3.0,5.0"/>
+      <visibility xmi:id="_0Fg492NXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0Fg49mNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FV50GNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sK-rUWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uQ7AGNXEeyTaJrEooS2Fg" position="-20.0,420.0"/>
+      <visibility xmi:id="_0FhgAWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FhgAGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0AmjwGNXEeyTaJrEooS2Fg" sourceAnchor="251.0,0.0" targetAnchor="0.0,77.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_z2Y30GNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sK_SYGNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WXAUGNYEeyTaJrEooS2Fg" sourceY="-212" targetX="-347"/>
+    <nameVisual xmi:id="_0FV50WNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uRiEGNXEeyTaJrEooS2Fg" position="-6.0,82.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FV50mNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="europeCitiesPostgis" navigable="true">
+      <modelElement href="initial3.uml#_rzRV8GNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uQ7AWNXEeyTaJrEooS2Fg" position="-125.0,-50.0"/>
+      <visibility xmi:id="_0FhgA2NXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FhgAmNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FV502NXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sK_SYWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uRiEWNXEeyTaJrEooS2Fg" position="-342.0,5.0"/>
+      <visibility xmi:id="_0FhgBWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FhgBGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0BXYwGNXEeyTaJrEooS2Fg" sourceAnchor="138.0,64.0" targetAnchor="251.0,0.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_zt0xsGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sK_5cGNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WQ5sGNYEeyTaJrEooS2Fg" sourceX="438" targetY="-209"/>
+    <nameVisual xmi:id="_0FV51GNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uEGsGNXEeyTaJrEooS2Fg" position="-6.0,17.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FWg4GNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="allOnDistanceFromBg100Mongo" navigable="true">
+      <modelElement href="initial3.uml#_rzUZQGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uDfoWNXEeyTaJrEooS2Fg" position="5.0,-49.0"/>
+      <visibility xmi:id="_0FhgB2NXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FhgBmNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FWg4WNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sK_5cWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uEGsWNXEeyTaJrEooS2Fg" position="-21.0,-50.0"/>
+      <visibility xmi:id="_0FiHEWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FiHEGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0CKC8GNXEeyTaJrEooS2Fg" sourceAnchor="138.0,77.0" targetAnchor="0.0,25.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_zt0xsGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sLAggGNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WRgwGNYEeyTaJrEooS2Fg" sourceX="165" targetX="-22" targetY="-221"/>
+    <bendpoints xmi:id="_1WRgwWNYEeyTaJrEooS2Fg" sourceX="165" sourceY="221" targetX="-22"/>
+    <nameVisual xmi:id="_0FWg4mNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uF74GNXEeyTaJrEooS2Fg" position="-6.0,-15.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FWg42NXEeyTaJrEooS2Fg" aggregationKind="NONE" name="allOnDistanceFromBg200Mongo" navigable="true">
+      <modelElement href="initial3.uml#_rzVnYGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uEtwGNXEeyTaJrEooS2Fg" position="175.0,5.0"/>
+      <visibility xmi:id="_0FiHE2NXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FiHEmNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FWg5GNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sLAggWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uF74WNXEeyTaJrEooS2Fg" position="-43.0,-50.0"/>
+      <visibility xmi:id="_0FiHFWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FiHFGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0C7fAGNXEeyTaJrEooS2Fg" sourceAnchor="69.0,128.0" targetAnchor="0.0,38.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_zt0xsGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sLBHkGNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WSH0GNYEeyTaJrEooS2Fg" sourceY="183" targetX="-256"/>
+    <nameVisual xmi:id="_0FXH8GNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uHxEGNXEeyTaJrEooS2Fg" position="-6.0,-100.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FXH8WNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="allOnDistanceFromBg500Mongo" navigable="true">
+      <modelElement href="initial3.uml#_rzWOcGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uGi8GNXEeyTaJrEooS2Fg" position="10.0,5.0"/>
+      <visibility xmi:id="_0FiHF2NXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FiHFmNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FXH8mNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sLBHkWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uHxEWNXEeyTaJrEooS2Fg" position="-277.0,-50.0"/>
+      <visibility xmi:id="_0FiuIGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FiHGGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0Drs8GNXEeyTaJrEooS2Fg" sourceAnchor="0.0,77.0" targetAnchor="0.0,51.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_zt0xsGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sLBuoGNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WSH0WNYEeyTaJrEooS2Fg" sourceX="-152" targetX="-477" targetY="-247"/>
+    <bendpoints xmi:id="_1WSu4GNYEeyTaJrEooS2Fg" sourceX="-152" sourceY="247" targetX="-477"/>
+    <nameVisual xmi:id="_0FXH82NXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uI_MGNXEeyTaJrEooS2Fg" position="-6.000000000000028,-41.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FXH9GNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="europeRussiaMongo" navigable="true">
+      <modelElement href="initial3.uml#_rzW1gGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uIYIGNXEeyTaJrEooS2Fg" position="-149.0,5.0"/>
+      <visibility xmi:id="_0FiuImNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FiuIWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FXvAGNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sLBuoWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uI_MWNXEeyTaJrEooS2Fg" position="-498.0,-50.0"/>
+      <visibility xmi:id="_0FiuJGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FiuI2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0EdwEGNXEeyTaJrEooS2Fg" sourceAnchor="0.0,64.0" targetAnchor="0.0,64.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_zt0xsGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sLBuomNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WSu4WNYEeyTaJrEooS2Fg" sourceX="-308" targetX="-633" targetY="-273"/>
+    <bendpoints xmi:id="_1WTV8GNYEeyTaJrEooS2Fg" sourceX="-308" sourceY="273" targetX="-633"/>
+    <nameVisual xmi:id="_0FXvAWNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uKNUGNXEeyTaJrEooS2Fg" position="-6.0,-67.00000000000003"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0FXvAmNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="europeCitiesMongo" navigable="true">
+      <modelElement href="initial3.uml#_rzXckGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uJmQGNXEeyTaJrEooS2Fg" position="-277.0,2.9999999999999716"/>
+      <visibility xmi:id="_0FiuJmNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FiuJWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0FXvA2NXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sLCVsGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uKNUWNXEeyTaJrEooS2Fg" position="-367.0,2.999999999999943"/>
+      <visibility xmi:id="_0FjVMGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FiuJ2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0HMT8GNXEeyTaJrEooS2Fg" sourceAnchor="0.0,210.0" targetAnchor="502.0,64.0" target="_0FlKYGNXEeyTaJrEooS2Fg" source="_0J_wUGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sL21EGNXEeyTaJrEooS2Fg"/>
+    <stereotypes xmi:id="_0J1YQ2NXEeyTaJrEooS2Fg" name="Reference">
+      <modelElement href="initial3.uml#_sMDCUGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0J1YQGNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uSwMGNXEeyTaJrEooS2Fg" position="-6.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0J1YQWNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sL21EWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uSJIGNXEeyTaJrEooS2Fg" position="-20.0,3.0"/>
+      <visibility xmi:id="_0J8F8WNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J8F8GNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0J1YQmNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="initial3.uml#_sHtU4GNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uTXQGNXEeyTaJrEooS2Fg" position="5.0,-49.0"/>
+      <visibility xmi:id="_0J8tAGNXEeyTaJrEooS2Fg" label="-"/>
+      <cardinality xmi:id="_0J8F8mNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0MlxUGNXEeyTaJrEooS2Fg" sourceAnchor="239.0,0.0" targetAnchor="215.0,96.0" target="_zy0mcGNXEeyTaJrEooS2Fg" source="_0S4mkGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sMUvIGNXEeyTaJrEooS2Fg"/>
+    <bendpoints xmi:id="_1WXnYGNYEeyTaJrEooS2Fg" sourceY="-24" targetX="465"/>
+    <stereotypes xmi:id="_0SioU2NXEeyTaJrEooS2Fg" name="Reference">
+      <modelElement href="initial3.uml#_sMdSAGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0SioUGNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uUlYGNXEeyTaJrEooS2Fg" position="-344.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0SioUWNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sMUvIWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uT-UGNXEeyTaJrEooS2Fg" position="-259.0,-21.0"/>
+      <visibility xmi:id="_0SuOgWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0SuOgGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0SioUmNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="cityRepo" navigable="true">
+      <modelElement href="initial3.uml#_sJRbIGNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uUlYWNXEeyTaJrEooS2Fg" position="5.0,-49.0"/>
+      <visibility xmi:id="_0SuOg2NXEeyTaJrEooS2Fg" label="-"/>
+      <cardinality xmi:id="_0SuOgmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0OfOwGNXEeyTaJrEooS2Fg" sourceAnchor="252.0,420.0" targetAnchor="134.0,0.0" target="_z3OlUGNXEeyTaJrEooS2Fg" source="_0S4mkGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sMdSAWNXEeyTaJrEooS2Fg"/>
+    <stereotypes xmi:id="_0SjPY2NXEeyTaJrEooS2Fg" name="Reference">
+      <modelElement href="initial3.uml#_sMoRIGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0SjPYGNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uVzgWNXEeyTaJrEooS2Fg" position="-19.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0SjPYWNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sMdSAmNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uVzgGNXEeyTaJrEooS2Fg" position="5.0,5.0"/>
+      <visibility xmi:id="_0Su1kmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0Su1kWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0SjPYmNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="cityRepoPostgis" navigable="true">
+      <modelElement href="initial3.uml#_sJSpQmNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uVzgmNXEeyTaJrEooS2Fg" position="-102.0,-50.0"/>
+      <visibility xmi:id="_0Su1lGNXEeyTaJrEooS2Fg" label="-"/>
+      <cardinality xmi:id="_0Su1k2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0Pi-sGNXEeyTaJrEooS2Fg" sourceAnchor="504.0,210.0" targetAnchor="0.0,74.0" target="_zwCYMGNXEeyTaJrEooS2Fg" source="_0S4mkGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sMo4MGNXEeyTaJrEooS2Fg"/>
+    <stereotypes xmi:id="_0Sj2cWNXEeyTaJrEooS2Fg" name="Reference">
+      <modelElement href="initial3.uml#_sMvl4GNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0SjPZGNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uXBoWNXEeyTaJrEooS2Fg" position="-60.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0SjPZWNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sMo4MWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uXBoGNXEeyTaJrEooS2Fg" position="5.0,-49.0"/>
+      <visibility xmi:id="_0SvcomNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0SvcoWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0Sj2cGNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="cityRepoMongo" navigable="true">
+      <modelElement href="initial3.uml#_sJT3YmNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uXosGNXEeyTaJrEooS2Fg" position="-105.0,3.0"/>
+      <visibility xmi:id="_0SvcpGNXEeyTaJrEooS2Fg" label="-"/>
+      <cardinality xmi:id="_0Svco2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0Q5CgGNXEeyTaJrEooS2Fg" sourceAnchor="0.0,210.0" targetAnchor="152.0,36.0" target="_zxUxoGNXEeyTaJrEooS2Fg" source="_0S4mkGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sMwM8GNXEeyTaJrEooS2Fg"/>
+    <stereotypes xmi:id="_0Sj2dWNXEeyTaJrEooS2Fg" name="Reference">
+      <modelElement href="initial3.uml#_sM26oGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0Sj2cmNXEeyTaJrEooS2Fg" text="">
+      <visualProperties xmi:id="_0uYPwWNXEeyTaJrEooS2Fg" position="43.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0Sj2c2NXEeyTaJrEooS2Fg" aggregationKind="NONE" name="">
+      <modelElement href="initial3.uml#_sMwM8WNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uYPwGNXEeyTaJrEooS2Fg" position="-20.0,3.0"/>
+      <visibility xmi:id="_0SwDsmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0SwDsWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0Sj2dGNXEeyTaJrEooS2Fg" aggregationKind="NONE" name="continentRepoMongo" navigable="true">
+      <modelElement href="initial3.uml#_sJVFgWNXEeyTaJrEooS2Fg"/>
+      <visualProperties xmi:id="_0uY20GNXEeyTaJrEooS2Fg" position="5.0,-49.0"/>
+      <visibility xmi:id="_0SwDtGNXEeyTaJrEooS2Fg" label="-"/>
+      <cardinality xmi:id="_0SwDs2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_0RvXEGNXEeyTaJrEooS2Fg" sourceAnchor="252.0,0.0" targetAnchor="251.0,128.0" dashed="true" superClass="_0FlKYGNXEeyTaJrEooS2Fg" subClass="_0S4mkGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_sE0Y8GNXEeyTaJrEooS2Fg"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zsvMkGNXEeyTaJrEooS2Fg" name="City5" associationsOut="_zsriMGNXEeyTaJrEooS2Fg _z45ZQGNXEeyTaJrEooS2Fg _z6HhQGNXEeyTaJrEooS2Fg _z7G_wGNXEeyTaJrEooS2Fg _z7tcsGNXEeyTaJrEooS2Fg _z8kYUGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+    <visualProperties xmi:id="_zsvMkWNXEeyTaJrEooS2Fg" position="1216.0,762.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_zsvMkmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+      <modelElement href="initial3.uml#_rxQjwGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_zsvMk2NXEeyTaJrEooS2Fg" name="Annotations">
+      <modelElement href="initial3.uml#_rxU1MGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <visibility xmi:id="_zsvMlGNXEeyTaJrEooS2Fg" label="+"/>
+    <attributes xmi:id="_zsvMlWNXEeyTaJrEooS2Fg" name="id">
+      <modelElement href="initial3.uml#_sIk3kGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zsvMlmNXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sImswGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zsvMl2NXEeyTaJrEooS2Fg" label="-"/>
+      <cardinality xmi:id="_zsvMmGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_zsvMmWNXEeyTaJrEooS2Fg" name="Long">
+        <modelElement href="initial3.uml#_sGZGQGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zsvMmmNXEeyTaJrEooS2Fg" name="city">
+      <modelElement href="initial3.uml#_sInT0WNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zsvMm2NXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sIn64GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zsvMnGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zsvMnWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_zsvMnmNXEeyTaJrEooS2Fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zsvMn2NXEeyTaJrEooS2Fg" name="country">
+      <modelElement href="initial3.uml#_sIn64WNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zsvMoGNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sIoh8GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zsvMoWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zsvMomNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_zsvMo2NXEeyTaJrEooS2Fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zsvMpGNXEeyTaJrEooS2Fg" name="coordinate">
+      <modelElement href="initial3.uml#_sIoh8WNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_zsvMpWNXEeyTaJrEooS2Fg" label="-"/>
+      <cardinality xmi:id="_zsvMpmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_zsvMp2NXEeyTaJrEooS2Fg" name="Point">
+        <modelElement href="initial3.uml#_r6OSgWNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zsvMqGNXEeyTaJrEooS2Fg" name="coordinates">
+      <modelElement href="initial3.uml#_sIpJAGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zsvMqWNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sIpwEGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zsvMqmNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLZiEGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zsvMq2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zsvMrGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <operations xmi:id="_zsvMrWNXEeyTaJrEooS2Fg" name="City5">
+      <modelElement href="initial3.uml#_rxRK0GNXEeyTaJrEooS2Fg"/>
+      <keywords xmi:id="_zsvMrmNXEeyTaJrEooS2Fg" keyword="create"/>
+      <stereotypes xmi:id="_zsvMr2NXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_rxSY8GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zsvMsGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zsvMsWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zsvMsmNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_rxRx4mNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_zsvMs2NXEeyTaJrEooS2Fg" name="City5">
+          <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zsvMtGNXEeyTaJrEooS2Fg" name="toString">
+      <modelElement href="initial3.uml#_rxTAAGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zsvMtWNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_rxTnEGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zsvMtmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zsvMt2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zsvMuGNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_rxTAAWNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_zsvzoGNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zsvzoWNXEeyTaJrEooS2Fg" name="City5">
+      <modelElement href="initial3.uml#_sGl6kGNXEeyTaJrEooS2Fg"/>
+      <keywords xmi:id="_zsvzomNXEeyTaJrEooS2Fg" keyword="create"/>
+      <stereotypes xmi:id="_zsvzo2NXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sGnIsGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zsvzpGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zsvzpWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zsvzpmNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sGmhpWNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_zsvzp2NXEeyTaJrEooS2Fg" name="City5">
+          <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zsvzqGNXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_sGmhoGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zsvzqWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zsvzqmNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zsvzq2NXEeyTaJrEooS2Fg" name="country">
+        <modelElement href="initial3.uml#_sGmhoWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zsvzrGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zsvzrWNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zsvzrmNXEeyTaJrEooS2Fg" name="coordinate">
+        <modelElement href="initial3.uml#_sGmhomNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zsvzr2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zsvzsGNXEeyTaJrEooS2Fg" name="Point">
+          <modelElement href="initial3.uml#_r6OSgWNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zsvzsWNXEeyTaJrEooS2Fg" name="setCoordinate">
+      <modelElement href="initial3.uml#_sGnvwGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zsvzsmNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sGo94GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zsvzs2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zsvztGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zsvztWNXEeyTaJrEooS2Fg" name="coordinate">
+        <modelElement href="initial3.uml#_sGoW0GNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zsvztmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zsvzt2NXEeyTaJrEooS2Fg" name="Point">
+          <modelElement href="initial3.uml#_r6OSgWNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zsvzuGNXEeyTaJrEooS2Fg" name="setId">
+      <modelElement href="initial3.uml#_sGo94WNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zsvzuWNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sGpk8WNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zsvzumNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zsvzu2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zsvzvGNXEeyTaJrEooS2Fg" name="id">
+        <modelElement href="initial3.uml#_sGpk8GNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zsvzvWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zsvzvmNXEeyTaJrEooS2Fg" name="Long">
+          <modelElement href="initial3.uml#_sGZGQGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zt0xsGNXEeyTaJrEooS2Fg" name="City5Mongo" associationsIn="_ztL4gGNXEeyTaJrEooS2Fg" associationsOut="_0BXYwGNXEeyTaJrEooS2Fg _0CKC8GNXEeyTaJrEooS2Fg _0C7fAGNXEeyTaJrEooS2Fg _0Drs8GNXEeyTaJrEooS2Fg _0EdwEGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_rwtKIGNXEeyTaJrEooS2Fg"/>
+    <visualProperties xmi:id="_zt0xsWNXEeyTaJrEooS2Fg" position="330.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_zt0xsmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+      <modelElement href="initial3.uml#_rwuYQGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_zt0xs2NXEeyTaJrEooS2Fg" name="Annotations">
+      <modelElement href="initial3.uml#_rwwNcGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <visibility xmi:id="_zt0xtGNXEeyTaJrEooS2Fg" label="+"/>
+    <attributes xmi:id="_zt0xtWNXEeyTaJrEooS2Fg" name="id">
+      <modelElement href="initial3.uml#_sIXcMGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zt0xtmNXEeyTaJrEooS2Fg" name="PrimaryKey">
+        <modelElement href="initial3.uml#_sIYDQGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zt0xt2NXEeyTaJrEooS2Fg" name="JPA1StyledElement">
+        <modelElement href="initial3.uml#_sIZ4cGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zt0xuGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zt0xuWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_zt0xumNXEeyTaJrEooS2Fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zt0xu2NXEeyTaJrEooS2Fg" name="city">
+      <modelElement href="initial3.uml#_sIafgGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zt0xvGNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sIafgWNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zt0xvWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zt0xvmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_zt0xv2NXEeyTaJrEooS2Fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zt0xwGNXEeyTaJrEooS2Fg" name="country">
+      <modelElement href="initial3.uml#_sIbGkGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zt0xwWNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sIcUsGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zt0xwmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zt0xw2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_zt0xxGNXEeyTaJrEooS2Fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zt0xxWNXEeyTaJrEooS2Fg" name="geom">
+      <modelElement href="initial3.uml#_sIcUsWNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zt0xxmNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sIc7wGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zt0xx2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zt0xyGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_zt0xyWNXEeyTaJrEooS2Fg" name="Point">
+        <modelElement href="initial3.uml#_r6OSgWNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_zwCYMGNXEeyTaJrEooS2Fg" name="City5MongoRepo" associationsIn="_0Pi-sGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_rxAFEGNXEeyTaJrEooS2Fg"/>
+    <visualProperties xmi:id="_zwCYMWNXEeyTaJrEooS2Fg" position="1409.0,1255.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zwCYMmNXEeyTaJrEooS2Fg" label="+"/>
+    <operations xmi:id="_zwCYM2NXEeyTaJrEooS2Fg" name="findByCityAndCountry">
+      <modelElement href="initial3.uml#_rxB6QGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_zwCYNGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zwCYNWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zwCYNmNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_r8zFYGNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_zwCYN2NXEeyTaJrEooS2Fg" name="City5Mongo">
+          <modelElement href="initial3.uml#_rwtKIGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zwCYOGNXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_rxB6QWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zwCYOWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zwCYOmNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zwCYO2NXEeyTaJrEooS2Fg" name="country">
+        <modelElement href="initial3.uml#_rxChUGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zwCYPGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zwCYPWNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zwCYPmNXEeyTaJrEooS2Fg" name="findByGeomNear">
+      <modelElement href="initial3.uml#_sF1FkGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_zwCYP2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zwCYQGNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_zwCYQWNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sF1somNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_zwCYQmNXEeyTaJrEooS2Fg" name="City5Mongo">
+          <modelElement href="initial3.uml#_rwtKIGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zwCYQ2NXEeyTaJrEooS2Fg" name="geom">
+        <modelElement href="initial3.uml#_sF1soGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zwCYRGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zwCYRWNXEeyTaJrEooS2Fg" name="GeoJsonPoint">
+          <modelElement href="initial3.uml#_r767oGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zwCYRmNXEeyTaJrEooS2Fg" name="d">
+        <modelElement href="initial3.uml#_sF1soWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zwCYR2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zwCYSGNXEeyTaJrEooS2Fg" name="Distance">
+          <modelElement href="initial3.uml#_r7VFwWNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zwCYSWNXEeyTaJrEooS2Fg" name="getEuropeRussia">
+      <modelElement href="initial3.uml#_sF26wGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zwCYSmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sF4I4GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zwCYS2NXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sF4v8GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zwCYTGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zwCYTWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_zwCYTmNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sF3h0WNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_zwCYT2NXEeyTaJrEooS2Fg" name="City5Mongo">
+          <modelElement href="initial3.uml#_rwtKIGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zwCYUGNXEeyTaJrEooS2Fg" name="europe">
+        <modelElement href="initial3.uml#_sF3h0GNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zwCYUWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zwCYUmNXEeyTaJrEooS2Fg" name="GeoJsonMultiPolygon">
+          <modelElement href="initial3.uml#_r662EGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zwCYU2NXEeyTaJrEooS2Fg" name="getEuropeCities">
+      <modelElement href="initial3.uml#_sF5XAGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zwCYVGNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sF6lIGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zwCYVWNXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sF7MMGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zwCYVmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zwCYV2NXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_zwCYWGNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sF5-EWNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_zwCYWWNXEeyTaJrEooS2Fg" name="City5Mongo">
+          <modelElement href="initial3.uml#_rwtKIGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zwCYWmNXEeyTaJrEooS2Fg" name="europe">
+        <modelElement href="initial3.uml#_sF5-EGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zwCYW2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zwCYXGNXEeyTaJrEooS2Fg" name="GeoJsonMultiPolygon">
+          <modelElement href="initial3.uml#_r662EGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zwCYXWNXEeyTaJrEooS2Fg" name="save">
+      <modelElement href="initial3.uml#_sGJOoGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zwCYXmNXEeyTaJrEooS2Fg" name="TypeParameterDeclaration">
+        <modelElement href="initial3.uml#_sGJ1sGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zwCYX2NXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sGLD0GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zwCYYGNXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sGLD0WNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zwCYYWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zwCYYmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zwCYY2NXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sGKcwGNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_zwCYZGNXEeyTaJrEooS2Fg" name="S">
+          <modelElement href="initial3.uml#_sF7zQWNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zwCYZWNXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_sGJOoWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zwCYZmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zwCYZ2NXEeyTaJrEooS2Fg" name="S">
+          <modelElement href="initial3.uml#_sF7zQWNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_zxUxoGNXEeyTaJrEooS2Fg" name="ContinentMongoRepo" associationsIn="_0Q5CgGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_rxIn8GNXEeyTaJrEooS2Fg"/>
+    <visualProperties xmi:id="_zxUxoWNXEeyTaJrEooS2Fg" position="206.0,1293.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zxUxomNXEeyTaJrEooS2Fg" label="+"/>
+    <attributes xmi:id="_zxUxo2NXEeyTaJrEooS2Fg" name="europePoints">
+      <modelElement href="initial3.uml#_rxJ2EGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zxUxpGNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_rxKdIGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zxUxpWNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLY7AGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zxUxpmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zxUxp2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_zy0mcGNXEeyTaJrEooS2Fg" name="City5Repository" associationsIn="_0MlxUGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_rxd_IGNXEeyTaJrEooS2Fg"/>
+    <visualProperties xmi:id="_zy0mcWNXEeyTaJrEooS2Fg" position="213.0,999.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zy0mcmNXEeyTaJrEooS2Fg" label="+"/>
+    <attributes xmi:id="_zy0mc2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100">
+      <modelElement href="initial3.uml#_rxiQkGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zy0mdGNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_rxi3oGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zy0mdWNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLaJIGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zy0mdmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zy0md2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_zy0meGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200">
+      <modelElement href="initial3.uml#_rxl68GNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zy0meWNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_rxl68WNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zy0memNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLawMGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zy0me2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zy0mfGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_zy0mfWNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500">
+      <modelElement href="initial3.uml#_rxo-QGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zy0mfmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_rxplUGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zy0mf2NXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLb-UGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zy0mgGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zy0mgWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_zy0mgmNXEeyTaJrEooS2Fg" name="europeRussia">
+      <modelElement href="initial3.uml#_rxud0GNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zy0mg2NXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_rxvE4GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zy0mhGNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLclYGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zy0mhWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zy0mhmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_zy0mh2NXEeyTaJrEooS2Fg" name="europeCities">
+      <modelElement href="initial3.uml#_rxxhIGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zy0miGNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_rxyIMGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zy0miWNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLdMcGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zy0mimNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zy0mi2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <operations xmi:id="_zy0mjGNXEeyTaJrEooS2Fg" name="findAll">
+      <modelElement href="initial3.uml#_rx0kcGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_zy0mjWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zy0mjmNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_zy0mj2NXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_rx0kcWNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_zy0mkGNXEeyTaJrEooS2Fg" name="City5">
+          <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zy0mkWNXEeyTaJrEooS2Fg" name="save">
+      <modelElement href="initial3.uml#_sHGQ4GNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zy0mkmNXEeyTaJrEooS2Fg" name="TypeParameterDeclaration">
+        <modelElement href="initial3.uml#_sHG38WNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zy0mk2NXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sHHfAWNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zy0mlGNXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sHItIGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zy0mlWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zy0mlmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zy0ml2NXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sHHfAGNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_zy0mmGNXEeyTaJrEooS2Fg" name="S">
+          <modelElement href="initial3.uml#_sG5ckGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zy0mmWNXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_sHG38GNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zy0mmmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zy1NgGNXEeyTaJrEooS2Fg" name="S">
+          <modelElement href="initial3.uml#_sG5ckGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_z2Y30GNXEeyTaJrEooS2Fg" name="City5Postgis" associationsOut="_z0jEwGNXEeyTaJrEooS2Fg _z9Y3sGNXEeyTaJrEooS2Fg _z-K60GNXEeyTaJrEooS2Fg _z_BPYGNXEeyTaJrEooS2Fg _z_z5kGNXEeyTaJrEooS2Fg _0AmjwGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_ryEcEGNXEeyTaJrEooS2Fg"/>
+    <visualProperties xmi:id="_z2Y30WNXEeyTaJrEooS2Fg" position="57.0,592.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_z2Y30mNXEeyTaJrEooS2Fg" name="Table">
+      <modelElement href="initial3.uml#_ryXXAGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_z2Y302NXEeyTaJrEooS2Fg" name="JPA1StyledElement">
+      <modelElement href="initial3.uml#_ryYlIGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_z2Y31GNXEeyTaJrEooS2Fg" name="Annotations">
+      <modelElement href="initial3.uml#_ryf54GNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <visibility xmi:id="_z2Y31WNXEeyTaJrEooS2Fg" label="+"/>
+    <attributes xmi:id="_z2Y31mNXEeyTaJrEooS2Fg" name="id">
+      <modelElement href="initial3.uml#_sIsMUGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_z2Y312NXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sIszYGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_z2Y32GNXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sItacGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_z2Y32WNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLgPwGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_z2Y32mNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_z2Y322NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_z2Y33GNXEeyTaJrEooS2Fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_z2Y33WNXEeyTaJrEooS2Fg" name="city">
+      <modelElement href="initial3.uml#_sIuBhWNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_z2Y33mNXEeyTaJrEooS2Fg" name="Column">
+        <modelElement href="initial3.uml#_sI1WQGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_z2Y332NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_z2Y34GNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_z2Y34WNXEeyTaJrEooS2Fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_z2Y34mNXEeyTaJrEooS2Fg" name="country">
+      <modelElement href="initial3.uml#_sI3LcGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_z2Y342NXEeyTaJrEooS2Fg" name="Column">
+        <modelElement href="initial3.uml#_sJBjgGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_z2Y35GNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_z2Y35WNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_z2Y35mNXEeyTaJrEooS2Fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_z2Y352NXEeyTaJrEooS2Fg" name="geom">
+      <modelElement href="initial3.uml#_sJDYsGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_z2Y36GNXEeyTaJrEooS2Fg" name="Column">
+        <modelElement href="initial3.uml#_sJL7kGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_z2Y36WNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_z2Y36mNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_z2Y362NXEeyTaJrEooS2Fg" name="Point">
+        <modelElement href="initial3.uml#_sB7dAWNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_z2Y37GNXEeyTaJrEooS2Fg" name="City5Postgis">
+      <modelElement href="initial3.uml#_ryc2kGNXEeyTaJrEooS2Fg"/>
+      <keywords xmi:id="_z2Y37WNXEeyTaJrEooS2Fg" keyword="create"/>
+      <stereotypes xmi:id="_z2Y37mNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_ryeEsGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_z2Y372NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_z2Y38GNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_z2Y38WNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_ryeEsWNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_z2Y38mNXEeyTaJrEooS2Fg" name="City5Postgis">
+          <modelElement href="initial3.uml#_ryEcEGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_z2Y382NXEeyTaJrEooS2Fg" name="City5Postgis">
+      <modelElement href="initial3.uml#_sHM-kGNXEeyTaJrEooS2Fg"/>
+      <keywords xmi:id="_z2Y39GNXEeyTaJrEooS2Fg" keyword="create"/>
+      <stereotypes xmi:id="_z2Y39WNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sHOzwGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_z2Ze4GNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_z2Ze4WNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_z2Ze4mNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sHOMsmNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_z2Ze42NXEeyTaJrEooS2Fg" name="City5Postgis">
+          <modelElement href="initial3.uml#_ryEcEGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_z2Ze5GNXEeyTaJrEooS2Fg" name="id">
+        <modelElement href="initial3.uml#_sHM-kWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_z2Ze5WNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_z2Ze5mNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_z2Ze52NXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_sHM-kmNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_z2Ze6GNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_z2Ze6WNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_z2Ze6mNXEeyTaJrEooS2Fg" name="country">
+        <modelElement href="initial3.uml#_sHNloGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_z2Ze62NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_z2Ze7GNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_z2Ze7WNXEeyTaJrEooS2Fg" name="geom">
+        <modelElement href="initial3.uml#_sHNloWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_z2Ze7mNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_z2Ze72NXEeyTaJrEooS2Fg" name="Point">
+          <modelElement href="initial3.uml#_sB7dAWNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_z3OlUGNXEeyTaJrEooS2Fg" name="City5PostgisRepo" associationsIn="_0OfOwGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_ryqR8GNXEeyTaJrEooS2Fg"/>
+    <visualProperties xmi:id="_z3OlUWNXEeyTaJrEooS2Fg" position="772.0,1741.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_z3OlUmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+      <modelElement href="initial3.uml#_ryrgEGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_z3OlU2NXEeyTaJrEooS2Fg" name="Annotations">
+      <modelElement href="initial3.uml#_ry9M4GNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <visibility xmi:id="_z3OlVGNXEeyTaJrEooS2Fg" label="+"/>
+    <attributes xmi:id="_z3OlVWNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100">
+      <modelElement href="initial3.uml#_rysHIGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_z3OlVmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_rysuMGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_z3OlV2NXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLhd4GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_z3OlWGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_z3OlWWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_z3OlWmNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200">
+      <modelElement href="initial3.uml#_ryvxgGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_z3OlW2NXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_rywYkGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_z3OlXGNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLiE8GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_z3OlXWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_z3OlXmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_z3OlX2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500">
+      <modelElement href="initial3.uml#_ryy00GNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_z3OlYGNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_ryzb4GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_z3OlYWNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLjTEGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_z3OlYmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_z3OlY2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_z3OlZGNXEeyTaJrEooS2Fg" name="europeRussia">
+      <modelElement href="initial3.uml#_ry2fMGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_z3OlZWNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_ry3GQGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_z3OlZmNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLj6IGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_z3OlZ2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_z3OlaGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_z3OlaWNXEeyTaJrEooS2Fg" name="europeCities">
+      <modelElement href="initial3.uml#_ry5igGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_z3OlamNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_ry6JkGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_z3Ola2NXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLj6IWNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_z3OlbGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_z3OlbWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <operations xmi:id="_z3OlbmNXEeyTaJrEooS2Fg" name="save">
+      <modelElement href="initial3.uml#_sC5GUGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_z3Olb2NXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sC6UcGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_z3PMYGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_z3PMYWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_z3PMYmNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sC5tYWNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_z3PMY2NXEeyTaJrEooS2Fg" name="City5Postgis">
+          <modelElement href="initial3.uml#_ryEcEGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_z3PMZGNXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_sC5tYGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_z3PMZWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_z3PMZmNXEeyTaJrEooS2Fg" name="City5Postgis">
+          <modelElement href="initial3.uml#_ryEcEGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_0FlKYGNXEeyTaJrEooS2Fg" name="City5Service" associationsIn="_z45ZQGNXEeyTaJrEooS2Fg _z6HhQGNXEeyTaJrEooS2Fg _z7G_wGNXEeyTaJrEooS2Fg _z7tcsGNXEeyTaJrEooS2Fg _z8kYUGNXEeyTaJrEooS2Fg _z9Y3sGNXEeyTaJrEooS2Fg _z-K60GNXEeyTaJrEooS2Fg _z_BPYGNXEeyTaJrEooS2Fg _z_z5kGNXEeyTaJrEooS2Fg _0AmjwGNXEeyTaJrEooS2Fg _0BXYwGNXEeyTaJrEooS2Fg _0CKC8GNXEeyTaJrEooS2Fg _0C7fAGNXEeyTaJrEooS2Fg _0Drs8GNXEeyTaJrEooS2Fg _0EdwEGNXEeyTaJrEooS2Fg _0HMT8GNXEeyTaJrEooS2Fg" subclassedBy="_0RvXEGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_rzCFYGNXEeyTaJrEooS2Fg"/>
+    <visualProperties xmi:id="_0FlKYWNXEeyTaJrEooS2Fg" position="655.0,303.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0FlKYmNXEeyTaJrEooS2Fg" label="+"/>
+    <attributes xmi:id="_0FlKY2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100">
+      <modelElement href="initial3.uml#_rzDTgGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKZGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKZWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKZmNXEeyTaJrEooS2Fg" name="City5">
+        <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKZ2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200">
+      <modelElement href="initial3.uml#_rzD6kGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKaGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKaWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKamNXEeyTaJrEooS2Fg" name="City5">
+        <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKa2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500">
+      <modelElement href="initial3.uml#_rzEhoGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKbGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKbWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKbmNXEeyTaJrEooS2Fg" name="City5">
+        <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKb2NXEeyTaJrEooS2Fg" name="europeRussia">
+      <modelElement href="initial3.uml#_rzFvwGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKcGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKcWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKcmNXEeyTaJrEooS2Fg" name="City5">
+        <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKc2NXEeyTaJrEooS2Fg" name="europeCities">
+      <modelElement href="initial3.uml#_rzGW0GNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKdGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKdWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKdmNXEeyTaJrEooS2Fg" name="City5">
+        <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKd2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100Postgis">
+      <modelElement href="initial3.uml#_rzMdcGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKeGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKeWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKemNXEeyTaJrEooS2Fg" name="City5Postgis">
+        <modelElement href="initial3.uml#_ryEcEGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKe2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200Postgis">
+      <modelElement href="initial3.uml#_rzOSoGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKfGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKfWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKfmNXEeyTaJrEooS2Fg" name="City5Postgis">
+        <modelElement href="initial3.uml#_ryEcEGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKf2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500Postgis">
+      <modelElement href="initial3.uml#_rzPgwGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKgGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKgWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKgmNXEeyTaJrEooS2Fg" name="City5Postgis">
+        <modelElement href="initial3.uml#_ryEcEGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKg2NXEeyTaJrEooS2Fg" name="europeRussiaPostgis">
+      <modelElement href="initial3.uml#_rzQu4GNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKhGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKhWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKhmNXEeyTaJrEooS2Fg" name="City5Postgis">
+        <modelElement href="initial3.uml#_ryEcEGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKh2NXEeyTaJrEooS2Fg" name="europeCitiesPostgis">
+      <modelElement href="initial3.uml#_rzRV8GNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKiGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKiWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKimNXEeyTaJrEooS2Fg" name="City5Postgis">
+        <modelElement href="initial3.uml#_ryEcEGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKi2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100Mongo">
+      <modelElement href="initial3.uml#_rzUZQGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKjGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKjWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKjmNXEeyTaJrEooS2Fg" name="City5Mongo">
+        <modelElement href="initial3.uml#_rwtKIGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKj2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200Mongo">
+      <modelElement href="initial3.uml#_rzVnYGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKkGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKkWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKkmNXEeyTaJrEooS2Fg" name="City5Mongo">
+        <modelElement href="initial3.uml#_rwtKIGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKk2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500Mongo">
+      <modelElement href="initial3.uml#_rzWOcGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKlGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKlWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKlmNXEeyTaJrEooS2Fg" name="City5Mongo">
+        <modelElement href="initial3.uml#_rwtKIGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKl2NXEeyTaJrEooS2Fg" name="europeRussiaMongo">
+      <modelElement href="initial3.uml#_rzW1gGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKmGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKmWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKmmNXEeyTaJrEooS2Fg" name="City5Mongo">
+        <modelElement href="initial3.uml#_rwtKIGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0FlKm2NXEeyTaJrEooS2Fg" name="europeCitiesMongo">
+      <modelElement href="initial3.uml#_rzXckGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKnGNXEeyTaJrEooS2Fg" label="~"/>
+      <cardinality xmi:id="_0FlKnWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0FlKnmNXEeyTaJrEooS2Fg" name="City5Mongo">
+        <modelElement href="initial3.uml#_rwtKIGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0FlKn2NXEeyTaJrEooS2Fg" name="saveNeo4j">
+      <modelElement href="initial3.uml#_rzIMAGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKoGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FlKoWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0FlKomNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sC8wsGNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_0FlKo2NXEeyTaJrEooS2Fg" name="City5">
+          <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0FlKpGNXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_rzIzEGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0FlKpWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0FlKpmNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0FlKp2NXEeyTaJrEooS2Fg" name="country">
+        <modelElement href="initial3.uml#_rzIzEWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0FlKqGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0FlKqWNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0FlKqmNXEeyTaJrEooS2Fg" name="lat">
+        <modelElement href="initial3.uml#_rzIzEmNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0FlKq2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0FlKrGNXEeyTaJrEooS2Fg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0FlKrWNXEeyTaJrEooS2Fg" name="lng">
+        <modelElement href="initial3.uml#_rzIzE2NXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0FlKrmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0FlKr2NXEeyTaJrEooS2Fg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0FlKsGNXEeyTaJrEooS2Fg" name="findAll">
+      <modelElement href="initial3.uml#_rzKBMGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKsWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FlKsmNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0FlKs2NXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_rzKBMWNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_0FlKtGNXEeyTaJrEooS2Fg" name="City5">
+          <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0FlKtWNXEeyTaJrEooS2Fg" name="savePostgis">
+      <modelElement href="initial3.uml#_rzSkEGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKtmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FlKt2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0FlKuGNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sC9XwGNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_0FlKuWNXEeyTaJrEooS2Fg" name="City5Postgis">
+          <modelElement href="initial3.uml#_ryEcEGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0FlKumNXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_rzSkEWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0FlKu2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0FlKvGNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0FlKvWNXEeyTaJrEooS2Fg" name="country">
+        <modelElement href="initial3.uml#_rzTLIGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0FlKvmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0FlKv2NXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0FlKwGNXEeyTaJrEooS2Fg" name="lat">
+        <modelElement href="initial3.uml#_rzTLIWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0FlKwWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0FlKwmNXEeyTaJrEooS2Fg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0FlKw2NXEeyTaJrEooS2Fg" name="lng">
+        <modelElement href="initial3.uml#_rzTyMGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0FlKxGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0FlKxWNXEeyTaJrEooS2Fg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0FlKxmNXEeyTaJrEooS2Fg" name="saveMongo">
+      <modelElement href="initial3.uml#_rzYDoGNXEeyTaJrEooS2Fg"/>
+      <visibility xmi:id="_0FlKx2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0FlKyGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0FlKyWNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sC9-0GNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_0FlKymNXEeyTaJrEooS2Fg" name="City5Mongo">
+          <modelElement href="initial3.uml#_rwtKIGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0FlKy2NXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_rzYqsGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0FlKzGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0FlKzWNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0FlKzmNXEeyTaJrEooS2Fg" name="country">
+        <modelElement href="initial3.uml#_rzYqsWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0FlKz2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0FlK0GNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0FlK0WNXEeyTaJrEooS2Fg" name="lat">
+        <modelElement href="initial3.uml#_rzYqsmNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0FlK0mNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0FlK02NXEeyTaJrEooS2Fg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0FlK1GNXEeyTaJrEooS2Fg" name="lng">
+        <modelElement href="initial3.uml#_rzYqs2NXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0FlK1WNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0FlK1mNXEeyTaJrEooS2Fg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0J_wUGNXEeyTaJrEooS2Fg" name="City5Controller" associationsOut="_0HMT8GNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_rv88MGNXEeyTaJrEooS2Fg"/>
+    <visualProperties xmi:id="_0J_wUWNXEeyTaJrEooS2Fg" position="1357.0,157.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0J_wUmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+      <modelElement href="initial3.uml#_rwBNoGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0J_wU2NXEeyTaJrEooS2Fg" name="Annotations">
+      <modelElement href="initial3.uml#_rwUIkGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <visibility xmi:id="_0J_wVGNXEeyTaJrEooS2Fg" label="+"/>
+    <attributes xmi:id="_0J_wVWNXEeyTaJrEooS2Fg" name="service">
+      <modelElement href="initial3.uml#_sHtU4GNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wVmNXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sHt78GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wV2NXEeyTaJrEooS2Fg" label="-"/>
+      <cardinality xmi:id="_0J_wWGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0J_wWWNXEeyTaJrEooS2Fg" name="City5Service">
+        <modelElement href="initial3.uml#_rzCFYGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0J_wWmNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100">
+      <modelElement href="initial3.uml#_sHujAWNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wW2NXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sHvKEGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_wXGNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLJDYGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wXWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wXmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_wX2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200">
+      <modelElement href="initial3.uml#_sHw_QWNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wYGNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sHxmUGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_wYWNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLJqcGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wYmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wY2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_wZGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500">
+      <modelElement href="initial3.uml#_sHzbgmNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wZWNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sH0CkGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_wZmNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLLfoGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wZ2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_waGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_waWNXEeyTaJrEooS2Fg" name="europeRussia">
+      <modelElement href="initial3.uml#_sH13wWNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wamNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sH2e0GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_wa2NXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLMGsGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wbGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wbWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_wbmNXEeyTaJrEooS2Fg" name="europeCities">
+      <modelElement href="initial3.uml#_sH4UAGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wb2NXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sH5iIGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_wcGNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLNU0GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wcWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wcmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_wc2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100Postgis">
+      <modelElement href="initial3.uml#_sH7-YGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wdGNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sH8lcGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_wdWNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLOi8GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wdmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wd2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_weGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200Postgis">
+      <modelElement href="initial3.uml#_sH-aomNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_weWNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sH_BsGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_wemNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLPxEGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_we2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wfGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_wfWNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500Postgis">
+      <modelElement href="initial3.uml#_sIA242NXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wfmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sIBd8GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_wf2NXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLQYIGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wgGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wgWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_wgmNXEeyTaJrEooS2Fg" name="europeRussiaPostgis">
+      <modelElement href="initial3.uml#_sIDTImNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wg2NXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sID6MGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_whGNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLQ_MGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_whWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_whmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_wh2NXEeyTaJrEooS2Fg" name="europeCitiesPostgis">
+      <modelElement href="initial3.uml#_sIG9gGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wiGNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sIHkkGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_wiWNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLRmQGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wimNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wi2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_wjGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100Mongo">
+      <modelElement href="initial3.uml#_sIIys2NXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wjWNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sIJZwGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_wjmNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLS0YGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wj2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wkGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_wkWNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200Mongo">
+      <modelElement href="initial3.uml#_sIL2AmNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wkmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sIMdEGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_wk2NXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLTbcGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wlGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wlWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_wlmNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500Mongo">
+      <modelElement href="initial3.uml#_sIOSQGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wl2NXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sIOSQWNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_wmGNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLUCgGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wmWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wmmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_wm2NXEeyTaJrEooS2Fg" name="europeRussiaMongo">
+      <modelElement href="initial3.uml#_sIQugGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wnGNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sIRVkGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_wnWNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLVQoGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wnmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wn2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0J_woGNXEeyTaJrEooS2Fg" name="europeCitiesMongo">
+      <modelElement href="initial3.uml#_sITKw2NXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_woWNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sITx0GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0J_womNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLV3sGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wo2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wpGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <operations xmi:id="_0J_wpWNXEeyTaJrEooS2Fg" name="findAll">
+      <modelElement href="initial3.uml#_rwIiYGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wpmNXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_rwNa4GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wp2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wqGNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0J_wqWNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_rwJwgGNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_0J_wqmNXEeyTaJrEooS2Fg" name="City5">
+          <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0J_wq2NXEeyTaJrEooS2Fg" name="save">
+      <modelElement href="initial3.uml#_sFUvQGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wrGNXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sFZAsGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wrWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wrmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0J_wr2NXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sFV9YGNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_0J_wsGNXEeyTaJrEooS2Fg" name="City5">
+          <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0J_wsWNXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_sFUvQWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0J_wsmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0J_ws2NXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0J_wtGNXEeyTaJrEooS2Fg" name="country">
+        <modelElement href="initial3.uml#_sFVWUGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0J_wtWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0J_wtmNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0J_wt2NXEeyTaJrEooS2Fg" name="lat">
+        <modelElement href="initial3.uml#_sFVWUWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0J_wuGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0J_wuWNXEeyTaJrEooS2Fg" name="Double">
+          <modelElement href="initial3.uml#_sFH68WNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0J_wumNXEeyTaJrEooS2Fg" name="lng">
+        <modelElement href="initial3.uml#_sFVWUmNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0J_wu2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0J_wvGNXEeyTaJrEooS2Fg" name="Double">
+          <modelElement href="initial3.uml#_sFH68WNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0J_wvWNXEeyTaJrEooS2Fg" name="savePostgis">
+      <modelElement href="initial3.uml#_sFa14GNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_wvmNXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sFfHUGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_wv2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_wwGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0J_wwWNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sFcEAGNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_0J_wwmNXEeyTaJrEooS2Fg" name="City5Postgis">
+          <modelElement href="initial3.uml#_ryEcEGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0J_ww2NXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_sFa14WNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0J_wxGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0J_wxWNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0J_wxmNXEeyTaJrEooS2Fg" name="country">
+        <modelElement href="initial3.uml#_sFa14mNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0J_wx2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0J_wyGNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0J_wyWNXEeyTaJrEooS2Fg" name="lat">
+        <modelElement href="initial3.uml#_sFbc8GNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0J_wymNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0J_wy2NXEeyTaJrEooS2Fg" name="Double">
+          <modelElement href="initial3.uml#_sFH68WNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0J_wzGNXEeyTaJrEooS2Fg" name="lng">
+        <modelElement href="initial3.uml#_sFbc8WNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0J_wzWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0J_wzmNXEeyTaJrEooS2Fg" name="Double">
+          <modelElement href="initial3.uml#_sFH68WNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0J_wz2NXEeyTaJrEooS2Fg" name="saveMongo">
+      <modelElement href="initial3.uml#_sFgVcGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0J_w0GNXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sFjYwWNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0J_w0WNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0J_w0mNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0J_w02NXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sFg8gmNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_0J_w1GNXEeyTaJrEooS2Fg" name="City5Mongo">
+          <modelElement href="initial3.uml#_rwtKIGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0J_w1WNXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_sFgVcWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0J_w1mNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0J_w12NXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0J_w2GNXEeyTaJrEooS2Fg" name="country">
+        <modelElement href="initial3.uml#_sFgVcmNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0J_w2WNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0J_w2mNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0J_w22NXEeyTaJrEooS2Fg" name="lat">
+        <modelElement href="initial3.uml#_sFg8gGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0J_w3GNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0J_w3WNXEeyTaJrEooS2Fg" name="Double">
+          <modelElement href="initial3.uml#_sFH68WNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0J_w3mNXEeyTaJrEooS2Fg" name="lng">
+        <modelElement href="initial3.uml#_sFg8gWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0J_w32NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0J_w4GNXEeyTaJrEooS2Fg" name="Double">
+          <modelElement href="initial3.uml#_sFH68WNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0S4mkGNXEeyTaJrEooS2Fg" name="City5ServiceImpl" associationsOut="_0MlxUGNXEeyTaJrEooS2Fg _0OfOwGNXEeyTaJrEooS2Fg _0Pi-sGNXEeyTaJrEooS2Fg _0Q5CgGNXEeyTaJrEooS2Fg" generalizations="_0RvXEGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_rzc8IGNXEeyTaJrEooS2Fg"/>
+    <visualProperties xmi:id="_0S4mkWNXEeyTaJrEooS2Fg" position="654.0,1119.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0S4mkmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+      <modelElement href="initial3.uml#_rzexUGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0S4mk2NXEeyTaJrEooS2Fg" name="Annotations">
+      <modelElement href="initial3.uml#_rzqXgGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <visibility xmi:id="_0S4mlGNXEeyTaJrEooS2Fg" label="+"/>
+    <attributes xmi:id="_0S4mlWNXEeyTaJrEooS2Fg" name="cityRepo">
+      <modelElement href="initial3.uml#_sJRbIGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4mlmNXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sJSpQGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4ml2NXEeyTaJrEooS2Fg" label="-"/>
+      <cardinality xmi:id="_0S4mmGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0S4mmWNXEeyTaJrEooS2Fg" name="City5Repository">
+        <modelElement href="initial3.uml#_rxd_IGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0S4mmmNXEeyTaJrEooS2Fg" name="cityRepoPostgis">
+      <modelElement href="initial3.uml#_sJSpQmNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4mm2NXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sJT3YGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4mnGNXEeyTaJrEooS2Fg" label="-"/>
+      <cardinality xmi:id="_0S4mnWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0S4mnmNXEeyTaJrEooS2Fg" name="City5PostgisRepo">
+        <modelElement href="initial3.uml#_ryqR8GNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0S4mn2NXEeyTaJrEooS2Fg" name="cityRepoMongo">
+      <modelElement href="initial3.uml#_sJT3YmNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4moGNXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sJUecGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4moWNXEeyTaJrEooS2Fg" label="-"/>
+      <cardinality xmi:id="_0S4momNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0S4mo2NXEeyTaJrEooS2Fg" name="City5MongoRepo">
+        <modelElement href="initial3.uml#_rxAFEGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0S4mpGNXEeyTaJrEooS2Fg" name="continentRepoMongo">
+      <modelElement href="initial3.uml#_sJVFgWNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4mpWNXEeyTaJrEooS2Fg" name="Annotations">
+        <modelElement href="initial3.uml#_sJVskGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4mpmNXEeyTaJrEooS2Fg" label="-"/>
+      <cardinality xmi:id="_0S4mp2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0S4mqGNXEeyTaJrEooS2Fg" name="ContinentMongoRepo">
+        <modelElement href="initial3.uml#_rxIn8GNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0S4mqWNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100">
+      <modelElement href="initial3.uml#_sJWToGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4mqmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJW6sGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4mq2NXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLoyoGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4mrGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4mrWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4mrmNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200">
+      <modelElement href="initial3.uml#_sJYv4WNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4mr2NXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJZW8GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4msGNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLpZsGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4msWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4msmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4ms2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500">
+      <modelElement href="initial3.uml#_sJalEWNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4mtGNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJbMIGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4mtWNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLpZsWNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4mtmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4mt2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4muGNXEeyTaJrEooS2Fg" name="europeRussia">
+      <modelElement href="initial3.uml#_sJcaQmNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4muWNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJdBUGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4mumNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLqAwGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4mu2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4mvGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4mvWNXEeyTaJrEooS2Fg" name="europeCities">
+      <modelElement href="initial3.uml#_sJe2gGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4mvmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJe2gWNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4mv2NXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLqn0GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4mwGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4mwWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4mwmNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100Postgis">
+      <modelElement href="initial3.uml#_sJgEoGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4mw2NXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJgrsGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4mxGNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLrO4GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4mxWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4mxmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4mx2NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200Postgis">
+      <modelElement href="initial3.uml#_sJjH8GNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4myGNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJjvAGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4myWNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLr18GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4mymNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4my2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4mzGNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500Postgis">
+      <modelElement href="initial3.uml#_sJmLQGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4mzWNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJmLQWNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4mzmNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLsdAGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4mz2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4m0GNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4m0WNXEeyTaJrEooS2Fg" name="europeRussiaPostgis">
+      <modelElement href="initial3.uml#_sJoAcmNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4m0mNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJongGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4m02NXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLtEEGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4m1GNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4m1WNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4m1mNXEeyTaJrEooS2Fg" name="europeCitiesPostgis">
+      <modelElement href="initial3.uml#_sJp1oGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4m12NXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJqcsGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4m2GNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLtrIGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4m2WNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4m2mNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4m22NXEeyTaJrEooS2Fg" name="allOnDistanceFromBg100Mongo">
+      <modelElement href="initial3.uml#_sJrq0GNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4m3GNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJsR4GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4m3WNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLuSMGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4m3mNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4m32NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4m4GNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg200Mongo">
+      <modelElement href="initial3.uml#_sJuuIGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4m4WNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJuuIWNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4m4mNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLu5QGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4m42NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4m5GNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4m5WNXEeyTaJrEooS2Fg" name="allOnDistanceFromBg500Mongo">
+      <modelElement href="initial3.uml#_sJwjUGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4m5mNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJxKYGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4m52NXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLwHYGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4m6GNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4m6WNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4m6mNXEeyTaJrEooS2Fg" name="europeRussiaMongo">
+      <modelElement href="initial3.uml#_sJyYgmNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4m62NXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJy_kGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4m7GNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLwucGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4m7WNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4m7mNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_0S4m72NXEeyTaJrEooS2Fg" name="europeCitiesMongo">
+      <modelElement href="initial3.uml#_sJzmoWNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4m8GNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+        <modelElement href="initial3.uml#_sJ0NsGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0S4m8WNXEeyTaJrEooS2Fg" name="MultiDeclaration">
+        <modelElement href="initial3.uml#_sLxVgGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4m8mNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4m82NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+    </attributes>
+    <operations xmi:id="_0S4m9GNXEeyTaJrEooS2Fg" name="saveNeo4j">
+      <modelElement href="initial3.uml#_rzh0oGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4m9WNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_rzjCwGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4m9mNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4m92NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0S4m-GNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sE2OIGNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_0S4m-WNXEeyTaJrEooS2Fg" name="City5">
+          <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0S4m-mNXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_rzh0oWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0S4m-2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0S4m_GNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0S4m_WNXEeyTaJrEooS2Fg" name="country">
+        <modelElement href="initial3.uml#_rzh0omNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0S4m_mNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0S4m_2NXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0S4nAGNXEeyTaJrEooS2Fg" name="lat">
+        <modelElement href="initial3.uml#_rzibsGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0S4nAWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0S4nAmNXEeyTaJrEooS2Fg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0S4nA2NXEeyTaJrEooS2Fg" name="lng">
+        <modelElement href="initial3.uml#_rzibsWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0S4nBGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0S4nBWNXEeyTaJrEooS2Fg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0S4nBmNXEeyTaJrEooS2Fg" name="findAll">
+      <modelElement href="initial3.uml#_rzjCwWNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4nB2NXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_rzkQ4GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4nCGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4nCWNXEeyTaJrEooS2Fg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0S4nCmNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_rzjp0GNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_0S4nC2NXEeyTaJrEooS2Fg" name="City5">
+          <modelElement href="initial3.uml#_rxOHgGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0S4nDGNXEeyTaJrEooS2Fg" name="savePostgis">
+      <modelElement href="initial3.uml#_rzlfAGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4nDWNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_rzmtIGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4nDmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4nD2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0S4nEGNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sE21MGNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_0S4nEWNXEeyTaJrEooS2Fg" name="City5Postgis">
+          <modelElement href="initial3.uml#_ryEcEGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0S4nEmNXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_rzmGEGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0S4nE2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0S4nFGNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0S4nFWNXEeyTaJrEooS2Fg" name="country">
+        <modelElement href="initial3.uml#_rzmGEWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0S4nFmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0S4nF2NXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0S4nGGNXEeyTaJrEooS2Fg" name="lat">
+        <modelElement href="initial3.uml#_rzmGEmNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0S4nGWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0S4nGmNXEeyTaJrEooS2Fg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0S4nG2NXEeyTaJrEooS2Fg" name="lng">
+        <modelElement href="initial3.uml#_rzmGE2NXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0S4nHGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0S4nHWNXEeyTaJrEooS2Fg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0S4nHmNXEeyTaJrEooS2Fg" name="saveMongo">
+      <modelElement href="initial3.uml#_rzoiUGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_0S4nH2NXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_rzpwcGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0S4nIGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_0S4nIWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0S4nImNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sE4DUGNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_0S4nI2NXEeyTaJrEooS2Fg" name="City5Mongo">
+          <modelElement href="initial3.uml#_rwtKIGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0S4nJGNXEeyTaJrEooS2Fg" name="city">
+        <modelElement href="initial3.uml#_rzoiUWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0S4nJWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0S4nJmNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0S4nJ2NXEeyTaJrEooS2Fg" name="country">
+        <modelElement href="initial3.uml#_rzoiUmNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0S4nKGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0S4nKWNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0S4nKmNXEeyTaJrEooS2Fg" name="lat">
+        <modelElement href="initial3.uml#_rzpJYGNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0S4nK2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0S4nLGNXEeyTaJrEooS2Fg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0S5NoGNXEeyTaJrEooS2Fg" name="lng">
+        <modelElement href="initial3.uml#_rzpJYWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_0S5NoWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0S5NomNXEeyTaJrEooS2Fg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zu8zEGNXEeyTaJrEooS2Fg" name="Property" associationsOut="_zuh8UGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_rw9BwGNXEeyTaJrEooS2Fg"/>
+    <visualProperties xmi:id="_zu8zEWNXEeyTaJrEooS2Fg" position="185.0,2356.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_zu8zEmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+      <modelElement href="initial3.uml#_rw-P4GNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_zu8zE2NXEeyTaJrEooS2Fg" name="Annotations">
+      <modelElement href="initial3.uml#_rw-28GNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <visibility xmi:id="_zu8zFGNXEeyTaJrEooS2Fg" label="+"/>
+    <attributes xmi:id="_zu8zFWNXEeyTaJrEooS2Fg" name="id">
+      <modelElement href="initial3.uml#_sIh0QGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zu8zFmNXEeyTaJrEooS2Fg" name="PrimaryKey">
+        <modelElement href="initial3.uml#_sIh0QWNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zu8zF2NXEeyTaJrEooS2Fg" name="JPA1StyledElement">
+        <modelElement href="initial3.uml#_sIjCYGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zu8zGGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zu8zGWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_zu8zGmNXEeyTaJrEooS2Fg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zu8zG2NXEeyTaJrEooS2Fg" name="CONTINENT">
+      <modelElement href="initial3.uml#_sIjpcGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zu8zHGNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sIkQgGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zu8zHWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zu8zHmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_zu8zH2NXEeyTaJrEooS2Fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zuijYGNXEeyTaJrEooS2Fg" name="ContinentMongo" associationsIn="_zuOaUGNXEeyTaJrEooS2Fg _zuh8UGNXEeyTaJrEooS2Fg">
+    <modelElement href="initial3.uml#_rwz30GNXEeyTaJrEooS2Fg"/>
+    <visualProperties xmi:id="_zuijYWNXEeyTaJrEooS2Fg" position="10.0,2002.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_zuijYmNXEeyTaJrEooS2Fg" name="LegacyStyledElement">
+      <modelElement href="initial3.uml#_rw1F8GNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_zuijY2NXEeyTaJrEooS2Fg" name="Annotations">
+      <modelElement href="initial3.uml#_rw4wUGNXEeyTaJrEooS2Fg"/>
+    </stereotypes>
+    <visibility xmi:id="_zuijZGNXEeyTaJrEooS2Fg" label="+"/>
+    <attributes xmi:id="_zuijZWNXEeyTaJrEooS2Fg" name="id">
+      <modelElement href="initial3.uml#_sIdi0GNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zuijZmNXEeyTaJrEooS2Fg" name="PrimaryKey">
+        <modelElement href="initial3.uml#_sIeJ4GNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zuijZ2NXEeyTaJrEooS2Fg" name="JPA1StyledElement">
+        <modelElement href="initial3.uml#_sIfYAGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zuijaGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zuijaWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_zuijamNXEeyTaJrEooS2Fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zuija2NXEeyTaJrEooS2Fg" name="geometry">
+      <modelElement href="initial3.uml#_sIf_EGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zuijbGNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sIf_EWNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zuijbWNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zuijbmNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_zuijb2NXEeyTaJrEooS2Fg" name="GeoJsonMultiPolygon">
+        <modelElement href="initial3.uml#_r662EGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zuijcGNXEeyTaJrEooS2Fg" name="properties">
+      <modelElement href="initial3.uml#_sIgmIGNXEeyTaJrEooS2Fg"/>
+      <stereotypes xmi:id="_zuijcWNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sIgmIWNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zuijcmNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zuijc2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <type xmi:id="_zuijdGNXEeyTaJrEooS2Fg" name="Property">
+        <modelElement href="initial3.uml#_rw9BwGNXEeyTaJrEooS2Fg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zuijdWNXEeyTaJrEooS2Fg" name="ContinentMongo">
+      <modelElement href="initial3.uml#_rw27IGNXEeyTaJrEooS2Fg"/>
+      <keywords xmi:id="_zuijdmNXEeyTaJrEooS2Fg" keyword="create"/>
+      <stereotypes xmi:id="_zuijd2NXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_rw4JQGNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zuijeGNXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zuijeWNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zuijemNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_rw3iMmNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_zuije2NXEeyTaJrEooS2Fg" name="ContinentMongo">
+          <modelElement href="initial3.uml#_rwz30GNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zuijfGNXEeyTaJrEooS2Fg" name="ContinentMongo">
+      <modelElement href="initial3.uml#_sFpfYGNXEeyTaJrEooS2Fg"/>
+      <keywords xmi:id="_zuijfWNXEeyTaJrEooS2Fg" keyword="create"/>
+      <stereotypes xmi:id="_zuijfmNXEeyTaJrEooS2Fg" name="StyledElement">
+        <modelElement href="initial3.uml#_sFqGcmNXEeyTaJrEooS2Fg"/>
+      </stereotypes>
+      <visibility xmi:id="_zuijf2NXEeyTaJrEooS2Fg" label="+"/>
+      <cardinality xmi:id="_zuijgGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zuijgWNXEeyTaJrEooS2Fg">
+        <modelElement href="initial3.uml#_sFqGcWNXEeyTaJrEooS2Fg"/>
+        <type xmi:id="_zuijgmNXEeyTaJrEooS2Fg" name="ContinentMongo">
+          <modelElement href="initial3.uml#_rwz30GNXEeyTaJrEooS2Fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zuijg2NXEeyTaJrEooS2Fg" name="id">
+        <modelElement href="initial3.uml#_sFpfYWNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zuijhGNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zuijhWNXEeyTaJrEooS2Fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zuijhmNXEeyTaJrEooS2Fg" name="geometry">
+        <modelElement href="initial3.uml#_sFpfYmNXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zuijh2NXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zuijiGNXEeyTaJrEooS2Fg" name="GeoJsonMultiPolygon">
+          <modelElement href="initial3.uml#_r662EGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zuijiWNXEeyTaJrEooS2Fg" name="properties">
+        <modelElement href="initial3.uml#_sFpfY2NXEeyTaJrEooS2Fg"/>
+        <cardinality xmi:id="_zuijimNXEeyTaJrEooS2Fg" label="1" max="1" min="1"/>
+        <type xmi:id="_zuiji2NXEeyTaJrEooS2Fg" name="Property">
+          <modelElement href="initial3.uml#_rw9BwGNXEeyTaJrEooS2Fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
